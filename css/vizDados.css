@@ -1,0 +1,63 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+@keyframes left-an {
+  0%   {left:-500px; top:0px; opacity: 0;}
+  100%  {left: 0px; top:0px; opacity: 1;}
+}
+
+@keyframes right-an {
+  0%   {right:-500px; top:0px; opacity: 0;}
+  100%  {right: 0px; top:0px; opacity: 1;}
+}
+
+.animation-left {
+  position: relative;
+  animation-name: left-an;
+  animation-duration: 1.5s;
+}
+
+.animation-right {
+  position: relative;
+  animation-name: right-an;
+  animation-duration: 1.5s;
+}
+
+.mapa {
+  min-width:40vw;
+}
+
+.mapa-texto {
+  width: 20%;
+  float:right;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+.teste {
+  height: 100%;
+}
+
+#mapid {
+    width: 800px
+    height: 800px
+}
