@@ -458,14 +458,14 @@ pid,nameAttested,nameLanguage,nameTransliterated
 267702570,['Santi Giovanni e Paolo'],['it'],['Santi Giovanni e Paolo']
 267702571,['Clivus Scauri'],['la'],['Clivus Scauri']
 378409584,['Mures'],['es'],['Mures']
-236955527,['Taгискен'],['ru'],"['Tagisken', 'Tegisken']"
+236955527,['Taгискен'],['ru'],"['Tegisken', 'Tagisken']"
 10993281,['unknown'],['la'],['Felignates']
 281701179,['unknown'],['it'],['Mausoleo della Conocchia']
 426595172,['سحاب'],['arb'],"['Saḥāb', 'Sahab', 'Sehab']"
 914118847,['Bārah'],['en'],['Barah']
 842949950,['unknown'],['tr'],['Kenk Boğazı']
 380086882,['Μαρώνι Βούρνες'],['el'],['Maroni Vournes']
-140546,['unknown'],['unknown'],"['Port-Sainte-Foy-et-Ponchapt', 'Le Canet']"
+140546,['unknown'],['unknown'],"['Le Canet', 'Port-Sainte-Foy-et-Ponchapt']"
 140548,['unknown'],['unknown'],['Montcaret']
 140553,['unknown'],['unknown'],['Latresne']
 140560,['unknown'],['unknown'],['Sainte-Colombe']
@@ -515,7 +515,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 148043,['unknown'],['unknown'],['Cavares']
 148047,['unknown'],['unknown'],"['Castellar', 'Lardiers']"
 148048,['unknown'],['la'],['Citharista']
-148058,['unknown'],['unknown'],"['La Condoumine', 'Puissalicon']"
+148058,['unknown'],['unknown'],"['Puissalicon', 'La Condoumine']"
 148065,['unknown'],['unknown'],['Cypresseta']
 148067,['unknown'],['unknown'],['Dexivates']
 148068,['unknown'],['unknown'],['Dilis']
@@ -635,7 +635,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 157840,['unknown'],['unknown'],['Cuntinus']
 157842,['unknown'],['unknown'],['Deciates']
 157843,['unknown'],['unknown'],['Dinia']
-157846,"['Ecdinii', 'Ecdini']",['la'],['Ecdinii']
+157846,"['Ecdini', 'Ecdinii']",['la'],['Ecdinii']
 157849,['unknown'],['unknown'],"[""L'Escale""]"
 157850,['unknown'],['unknown'],['Eturamina']
 157854,['unknown'],['unknown'],['Forum Voconii']
@@ -653,7 +653,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 157880,['unknown'],['unknown'],['Lumo']
 157884,['unknown'],['unknown'],['Matavo']
 157891,['unknown'],['unknown'],['Navelis']
-157893,"['Nerusii', 'Nerusi']",['la'],['Nerusii']
+157893,"['Nerusi', 'Nerusii']",['la'],['Nerusii']
 157894,['unknown'],['unknown'],['Nicaea']
 157897,['unknown'],['unknown'],['Olivula']
 157899,['Oxubii'],['la'],['Oxubii']
@@ -685,7 +685,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 912855,['unknown'],['unknown'],['Girsu']
 912868,['unknown'],['unknown'],['Isin']
 912871,['unknown'],['unknown'],['Hedyphon']
-912881,['جَزيرِۀ خارك'],['fa'],"['Khārk', 'Jazīreh-ye Khārk', 'Jazireh Khark', 'Jazireh Khārk']"
+912881,['جَزيرِۀ خارك'],['fa'],"['Jazīreh-ye Khārk', 'Khārk', 'Jazireh Khark', 'Jazireh Khārk']"
 912901,['unknown'],['unknown'],['Marad']
 912902,['unknown'],['unknown'],['Mat Tamti']
 912908,['unknown'],['unknown'],['Nar-Kute']
@@ -722,7 +722,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 321652,['unknown'],['unknown'],['Civitas Bencennensis']
 321653,['unknown'],['unknown'],['Civitas Faustianensis']
 649361735,['Ferresanus Portus'],['la'],['Ferresanus Portus']
-629429885,['unknown'],['en'],"['Blue Mosque', 'Sultan Ahmed Mosque']"
+629429885,['unknown'],['en'],"['Sultan Ahmed Mosque', 'Blue Mosque']"
 349567,['unknown'],['unknown'],['Achaimeneis']
 349568,['unknown'],['unknown'],['Ad Cisternas']
 349569,['unknown'],['unknown'],['Afas Laminie']
@@ -1279,7 +1279,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 39419,['unknown'],['unknown'],['Sachalites Sinus']
 39421,['unknown'],['unknown'],['Sakchenoi']
 39422,['unknown'],['unknown'],['Sammaei']
-584889481,['Temple of Hera'],['en'],"['Temple of Hera', 'Olympia']"
+584889481,['Temple of Hera'],['en'],"['Olympia', 'Temple of Hera']"
 813654446,['Choragic Monument of Lysicrates'],['en'],['Choragic Monument of Lysicrates']
 229277206,['قطب مینار\u200e'],['ur'],['Qutb Minar']
 229277207,['unknown'],['la'],['Civitas Leonina']
@@ -1366,7 +1366,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550914,['unknown'],['unknown'],['Termetis M.']
 550916,['Τευθρανία'],['grc'],['Teuthrania']
 550917,['unknown'],['unknown'],['Teuthras M.']
-550918,['unknown'],['unknown'],"['T.', 'Thea Larmene']"
+550918,['unknown'],['unknown'],"['Thea Larmene', 'T.']"
 550919,['Θήβη'],['grc'],['Thebe']
 550920,['Θήβης πεδίον'],['grc'],['Thebes Pedion']
 550922,['unknown'],['unknown'],['Therma']
@@ -1384,7 +1384,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550947,['unknown'],['unknown'],['Troketta']
 550949,['unknown'],['unknown'],['Tyanollos']
 550951,['unknown'],['unknown'],['Xanthos']
-550956,['unknown'],['unknown'],"['T.', 'Zeus Antigonios']"
+550956,['unknown'],['unknown'],"['Zeus Antigonios', 'T.']"
 554172,['unknown'],['unknown'],['(...)dana']
 554173,['unknown'],['unknown'],['Achelous']
 554176,['unknown'],['unknown'],['Agamede']
@@ -1517,7 +1517,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 554336,['unknown'],['unknown'],['Tiarai regio']
 554337,['unknown'],['unknown'],['Trinoixeita']
 554341,['unknown'],['unknown'],['Xanthos']
-554343,['unknown'],['unknown'],"['T.', 'Zeus Hyperdexios']"
+554343,['unknown'],['unknown'],"['Zeus Hyperdexios', 'T.']"
 560331,['unknown'],['unknown'],['Caminia']
 560353,['unknown'],['la'],['Cyclades']
 570027,['unknown'],['unknown'],['Abia']
@@ -1561,8 +1561,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 570109,['unknown'],['unknown'],['Aristonautai']
 570113,['unknown'],['unknown'],['Aroanios']
 570115,['unknown'],['unknown'],['Arsen']
-570119,['unknown'],['unknown'],"['T.', 'Artemis Limnatis']"
-570120,['unknown'],['unknown'],"['T.', 'Artemis Limnatis']"
+570119,['unknown'],['unknown'],"['Artemis Limnatis', 'T.']"
+570120,['unknown'],['unknown'],"['Artemis Limnatis', 'T.']"
 570121,['Ἀρτεμίσιον'],['grc'],['Artemision']
 570122,['Ἀσέα'],['grc'],['Asea']
 570125,['unknown'],['unknown'],['Asine']
@@ -1667,11 +1667,11 @@ pid,nameAttested,nameLanguage,nameTransliterated
 582993625,['unknown'],['en'],"[""Tell Bi'a""]"
 584375361,['unknown'],['gaelic'],['Sceilg Mhichíl']
 151473899,['unknown'],['en'],['Necropolis of Ponte Messato']
-229670928,"['Ciminia', 'Via']",['la'],"['Ciminia Via', 'Via Ciminia']"
+229670928,"['Ciminia', 'Via']",['la'],"['Via Ciminia', 'Ciminia Via']"
 673471798,['unknown'],['la'],['Compitum Acilii']
 713767971,['unknown'],['en'],['Mahabodhi Temple']
 633771263,['Вербовский могильник'],['ru'],['Verbovskiĭ mogilʹnik']
-796289136,['سقارة'],['ar'],"['Sakkara', 'sqArp', 'SbGQI', 'sqʾrẗ', 'Saqara', 'Saqqara', 'Saqqarah']"
+796289136,['سقارة'],['ar'],"['Sakkara', 'Saqara', 'Saqqarah', 'sqʾrẗ', 'sqArp', 'SbGQI', 'Saqqara']"
 828299,['unknown'],['unknown'],['Ocharius']
 828300,['Ὀβιδιακηνοὶ'],['grc'],['Obidiakenoi']
 828302,['unknown'],['unknown'],['Perierbidoi']
@@ -1887,7 +1887,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 845036,['unknown'],['unknown'],['Parthenios']
 845038,['unknown'],['unknown'],['Petobrogen']
 845039,['unknown'],['unknown'],['Pimolisa']
-845043,['unknown'],['unknown'],"['T.', 'Poseidon']"
+845043,['unknown'],['unknown'],"['Poseidon', 'T.']"
 845044,['unknown'],['unknown'],['Potamia']
 845045,['unknown'],['unknown'],['Potamoi']
 845046,['unknown'],['unknown'],['Potomia Cepora']
@@ -2348,7 +2348,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 638747,['unknown'],['unknown'],['Antikragos M.']
 638748,['unknown'],['unknown'],['Antiochia ad Maeandrum']
 638752,['unknown'],['unknown'],['Aperlae']
-638754,['unknown'],['unknown'],"['T.', 'Apollo']"
+638754,['unknown'],['unknown'],"['Apollo', 'T.']"
 638755,['unknown'],['unknown'],['Apollonia']
 638757,['unknown'],['unknown'],['Apollonia Salbakes']
 638759,['unknown'],['unknown'],['Aporidos Come']
@@ -2393,7 +2393,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 638834,['unknown'],['unknown'],['Eukereia']
 638835,['unknown'],['unknown'],['Eunias Nemus']
 638836,['unknown'],['unknown'],['Eurymedon']
-638837,['unknown'],['unknown'],"['T.', 'Eurymedon']"
+638837,['unknown'],['unknown'],"['Eurymedon', 'T.']"
 638838,['unknown'],['unknown'],['Euxine']
 638843,['unknown'],['unknown'],['Glaucus']
 638853,['Ἁμαξία'],['grc'],['Hamaxia']
@@ -2556,7 +2556,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 639073,['unknown'],['unknown'],['Ptolemais']
 639075,['unknown'],['unknown'],['Pyros']
 639079,['unknown'],['unknown'],['Rhoge']
-639083,['unknown'],['unknown'],"['T.', 'Roma et Augustus']"
+639083,['unknown'],['unknown'],"['Roma et Augustus', 'T.']"
 639084,['unknown'],['unknown'],['Ropisa']
 639086,['unknown'],['unknown'],['Sabandos']
 639087,['unknown'],['unknown'],['Sagalassos']
@@ -2613,7 +2613,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 639160,['unknown'],['unknown'],['Tyriaion']
 639166,['unknown'],['unknown'],['Xanthos']
 639168,['unknown'],['unknown'],['Xenagori']
-640246,['Kırk Göz Kemeri'],['tr'],"['Kirk Goz Kemeri', 'Kırk Göz Kemeri']"
+640246,['Kırk Göz Kemeri'],['tr'],"['Kırk Göz Kemeri', 'Kirk Goz Kemeri']"
 642507,['unknown'],['unknown'],['Agathe Kome']
 642508,['unknown'],['unknown'],['Akarassos']
 642509,['unknown'],['unknown'],['Altada']
@@ -3104,7 +3104,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 226571,['unknown'],['unknown'],['Conopon Diabasis']
 226572,['unknown'],['unknown'],['Coretus Sinus']
 226574,['unknown'],['la'],['Crobyzi']
-226579,['unknown'],['unknown'],"['T.', 'Demeter']"
+226579,['unknown'],['unknown'],"['Demeter', 'T.']"
 226586,['unknown'],['unknown'],['Dory']
 226594,['Enoecadioe'],['la'],['Enoecadioe']
 226595,['unknown'],['unknown'],['Eremia Geton']
@@ -3262,7 +3262,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 441075550,['Regio I'],['la'],['Regio I']
 126728263,['unknown'],['ku'],['Mergasur']
 966917974,['Ekklesiasterion of Morgantina'],['en'],['Ekklesiasterion of Morgantina']
-494566508,['unknown'],['arb'],"['Kataret es-Samra', 'Qataret es-Samra', 'Katarit es-Samra']"
+494566508,['unknown'],['arb'],"['Katarit es-Samra', 'Kataret es-Samra', 'Qataret es-Samra']"
 835369289,['unknown'],['en'],['Angkor Wat']
 266192488,['Taгискен '],['ru'],['Tagisken']
 976164504,['unknown'],['sux'],['Eulmaš']
@@ -3276,22 +3276,22 @@ pid,nameAttested,nameLanguage,nameTransliterated
 830186655,['Gymnasium'],['grc-Latn'],['Gymnasium']
 67911853,['Velina'],['la'],['Velina']
 856514595,['unknown'],['la'],['Via Flaminia']
-442962448,['الجيزة\u200e'],['ar'],"['Giza', 'Gizeh', 'Giseh', 'Gizah']"
+442962448,['الجيزة\u200e'],['ar'],"['Giza', 'Giseh', 'Gizah', 'Gizeh']"
 81528331,['Ἀπόλλων Κύννειος'],['grc'],['Apollo Cynneius']
 85950399,['Pallantium'],['la'],['Pallantium']
 516671863,['unknown'],['en'],"[""Palace of Naqi'a""]"
 897975988,['unknown'],['akk'],['gerri šarri']
 872350435,['San Nicola in Carcere'],['it'],['San Nicola in Carcere']
-313840750,['وادي الهول'],['arz'],"['Wadi al-Hol', 'Wadi el-Hawl', 'Wadi el-Ḥôl', 'Wadi al-Hawl', 'Wadi el-Hol', 'Wadi el-Hôl']"
+313840750,['وادي الهول'],['arz'],"['Wadi el-Hawl', 'Wadi al-Hol', 'Wadi el-Hol', 'Wadi el-Ḥôl', 'Wadi al-Hawl', 'Wadi el-Hôl']"
 671593467,['unknown'],['catalan'],['Poblat ibèric de les Maleses']
 372350839,['unknown'],['it'],['Rumanedda']
 284997408,['unknown'],['it'],['Vigna Parrocchiale']
-112487386,['שער הגולן'],['he'],"['Sha‘ar HaGolan', ""Sha'ar Ha-Golan"", 'Shaar Hagolan']"
+112487386,['שער הגולן'],['he'],"['Shaar Hagolan', 'Sha‘ar HaGolan', ""Sha'ar Ha-Golan""]"
 166434539,['unknown'],['it'],['Orcia']
 286808787,['unknown'],['it'],['Castello di Serravalle']
 440947682,['El Kab'],['en'],['El Kab']
 691963965,['unknown'],['en'],['Scaftworth']
-589744740,['תִּרְצָ֖ה'],['hbo'],"['Thirza', 'Tirzah']"
+589744740,['תִּרְצָ֖ה'],['hbo'],"['Tirzah', 'Thirza']"
 812335599,['Beauport Park'],['en'],['Beauport Park']
 398214850,['Новая Беденьга I'],['ru'],"[""Novai͡a Beden'ga I"", ""Novaya Beden'ga I""]"
 666067877,['Pupinia tribus'],['la'],['Pupinia tribus']
@@ -3524,7 +3524,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 315086,['unknown'],['unknown'],['Muthul']
 315088,['unknown'],['unknown'],['Muzuc']
 315091,['Naraggara'],['la'],['Naraggara']
-315093,['Νεάπολις'],['grc'],"['Neapolis', 'Neápolis']"
+315093,['Νεάπολις'],['grc'],"['Neápolis', 'Neapolis']"
 315094,['unknown'],['unknown'],['Nepheris']
 315095,['unknown'],['unknown'],['Novae Aquilianae']
 315100,['unknown'],['unknown'],['Orbita']
@@ -3653,13 +3653,13 @@ pid,nameAttested,nameLanguage,nameTransliterated
 317102,['unknown'],['unknown'],['Fossa Regia']
 321632,['unknown'],['unknown'],['Aboriense']
 434423626,['Sacra via'],['la'],['Sacra via']
-842000735,['Алтын-Депе'],['tk-Latn'],"['Altyndepe', 'Altyn-depe', 'Altin Tepe', 'Altyntepe', 'Oltintepa']"
+842000735,['Алтын-Депе'],['tk-Latn'],"['Oltintepa', 'Altyn-depe', 'Altyndepe', 'Altin Tepe', 'Altyntepe']"
 591210113,['Δούλων πόλενς '],['grc'],['Doulon polis']
 835972236,['Teatro romano di Ercolano'],['it'],['Teatro romano di Ercolano']
 707263269,['Kınık Höyük'],['tr'],['Kınık Höyük']
-997535409,['Цaрев курган'],['ru'],"['Tsarëv kurgan', 'Tsaryov kurgan', 'Tsarev kurgan']"
+997535409,['Цaрев курган'],['ru'],"['Tsarev kurgan', 'Tsarëv kurgan', 'Tsaryov kurgan']"
 851753991,['جرابلس تحتاني'],['ar'],"['Jarābulus Taḩtānī', 'Jarablus Tahtani']"
-509457605,['unknown'],['ar'],"['Tulaylat al-Ghassul', 'Tulaylât al-Ghassûl', 'Teleilat el-Ghassul', 'Teleilat Ghassul']"
+509457605,['unknown'],['ar'],"['Tulaylât al-Ghassûl', 'Tulaylat al-Ghassul', 'Teleilat el-Ghassul', 'Teleilat Ghassul']"
 473876126,['Roman Amphitheatre'],['en'],['Roman Amphitheatre']
 480644113,['Ամբերդ'],['hy'],['Amberd']
 92641217,['Կեչառիսի վանական համալիր'],['hy'],['Kech’arrisi vanakan hamalir']
@@ -3737,7 +3737,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 678431,['unknown'],['unknown'],['Tiberias']
 678432,['unknown'],['unknown'],['Tibetha']
 678435,['τραχῶνες'],['grc'],['Trachones']
-678439,['أم الجمال'],['ar'],"['Umm el-Jimal', 'Umm al-Jimal']"
+678439,['أم الجمال'],['ar'],"['Umm al-Jimal', 'Umm el-Jimal']"
 678445,['unknown'],['unknown'],['Usha']
 678447,['unknown'],['unknown'],['Valle Diocletiana']
 678448,['unknown'],['unknown'],['Vallis Alba']
@@ -3896,7 +3896,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 697662,['unknown'],['unknown'],['Esbous']
 697666,['unknown'],['unknown'],['Gadda']
 697677,['unknown'],['unknown'],['Kalliroe']
-697695,['unknown'],['arb'],"['al-Lahūn', 'el-Lehun']"
+697695,['unknown'],['arb'],"['el-Lehun', 'al-Lahūn']"
 697696,['unknown'],['unknown'],['Libba']
 697698,['unknown'],['unknown'],['Loueitha']
 697700,['unknown'],['unknown'],['Machairous']
@@ -3937,27 +3937,27 @@ pid,nameAttested,nameLanguage,nameTransliterated
 707459,['unknown'],['unknown'],['Alampria']
 707465,['unknown'],['unknown'],['Androklou Oikos']
 707468,['unknown'],['unknown'],['Aphrodision']
-707469,['unknown'],['unknown'],"['T.', 'Aphrodite Akraia']"
-707470,['unknown'],['unknown'],"['T.', 'Aphrodite Golgia']"
+707469,['unknown'],['unknown'],"['Aphrodite Akraia', 'T.']"
+707470,['unknown'],['unknown'],"['Aphrodite Golgia', 'T.']"
 707471,['unknown'],['unknown'],"['Aphrodite Paphia', 'T.']"
 707473,['unknown'],['unknown'],['Aphrodites Lophos']
-707474,['unknown'],['unknown'],"['T.', 'Apollo Agyates']"
-707475,['unknown'],['unknown'],"['T.', 'Apollo Alasiotas']"
+707474,['unknown'],['unknown'],"['Apollo Agyates', 'T.']"
+707475,['unknown'],['unknown'],"['Apollo Alasiotas', 'T.']"
 707476,['unknown'],['unknown'],"['T.', 'Apollo Hylates']"
 707477,['unknown'],['unknown'],"['Apollo Mageirios', 'T.']"
-707480,['unknown'],['unknown'],"['T.', 'Apollo']"
-707481,['unknown'],['unknown'],"['T.', 'Apollo']"
+707480,['unknown'],['unknown'],"['Apollo', 'T.']"
+707481,['unknown'],['unknown'],"['Apollo', 'T.']"
 707483,['unknown'],['unknown'],['Arsinoe']
 707484,['unknown'],['unknown'],['Arsinoe']
 707488,['unknown'],['unknown'],"['Athena', 'T.']"
-707490,['unknown'],['unknown'],"['T.', 'Baal-Hamman']"
+707490,['unknown'],['unknown'],"['Baal-Hamman', 'T.']"
 707492,['unknown'],['unknown'],['Basileus']
 707494,['unknown'],['unknown'],['Boukasa M.']
 707500,['unknown'],['unknown'],['Dades Pr.']
 707503,['unknown'],['unknown'],['Drepanon Pr.']
 707507,['unknown'],['unknown'],['Elaia Pr.']
 707513,['unknown'],['unknown'],['Gy(...)']
-707515,['unknown'],['unknown'],"['T.', 'Hera']"
+707515,['unknown'],['unknown'],"['Hera', 'T.']"
 707522,['unknown'],['unknown'],['Kallinousa Pr.']
 707525,['unknown'],['unknown'],['Kargaiai Pr.']
 707527,['Καρπασία'],['grc'],['Karpasiai']
@@ -4155,7 +4155,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 727099,['unknown'],['unknown'],['Chemmis']
 727100,['unknown'],['unknown'],['Chemmites Nomos']
 727103,['unknown'],['unknown'],['Daphnai']
-727105,['دير أبو مينا'],['ar'],"['Deir Abu Mena', 'Abu Mina', 'Deir Abu Menas', 'Deir Abou Menas']"
+727105,['دير أبو مينا'],['ar'],"['Deir Abu Menas', 'Deir Abu Mena', 'Abu Mina', 'Deir Abou Menas']"
 727109,['unknown'],['unknown'],['Didymai']
 727110,['unknown'],['unknown'],['Diokleous Kome']
 727111,['unknown'],['unknown'],['Diospolis Kato']
@@ -4676,7 +4676,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 746739,['unknown'],['unknown'],['Garindaneis']
 746741,['unknown'],['unknown'],['Gypsaria']
 746744,['unknown'],['unknown'],['Heroopoliticus Sinus']
-746745,['unknown'],['unknown'],"['Mon.', 'Horeb Mons']"
+746745,['unknown'],['unknown'],"['Horeb Mons', 'Mon.']"
 746747,['unknown'],['unknown'],['Iotabe']
 746775,['unknown'],['unknown'],['Madiama']
 746777,['unknown'],['unknown'],['Makna']
@@ -4699,14 +4699,14 @@ pid,nameAttested,nameLanguage,nameTransliterated
 756516,['unknown'],['unknown'],['Antaiopolites Nomos']
 756517,['unknown'],['unknown'],['Antinoites Nomos']
 756519,['unknown'],['unknown'],"['Mon.', 'Apa Abraham']"
-756521,['unknown'],['unknown'],"['Apa Apollo', 'Mon.']"
+756521,['unknown'],['unknown'],"['Mon.', 'Apa Apollo']"
 756523,['unknown'],['unknown'],"['Apa Bane', 'Mon.']"
 756524,['unknown'],['unknown'],"['Apa Djoore', 'Mon.']"
 756525,['unknown'],['unknown'],"['Apa Ioannes', 'Mon.']"
-756527,['unknown'],['unknown'],"['Mon.', 'Apa Palemon']"
+756527,['unknown'],['unknown'],"['Apa Palemon', 'Mon.']"
 756528,['unknown'],['unknown'],"['Apa Psoi', 'Mon.']"
 756530,['unknown'],['unknown'],"['Apa Senouthou', 'Mon.']"
-756531,['unknown'],['unknown'],"['Mon.', 'Apa Souroutos']"
+756531,['unknown'],['unknown'],"['Apa Souroutos', 'Mon.']"
 756533,['unknown'],['unknown'],['Aphroditopolites Nomos']
 756535,['unknown'],['unknown'],['Apollonopolites Nomos']
 756537,['unknown'],['unknown'],['Arabia']
@@ -4765,15 +4765,15 @@ pid,nameAttested,nameLanguage,nameTransliterated
 756676,['unknown'],['unknown'],['Wadi Sarga']
 759532,['unknown'],['unknown'],['Achilleos']
 759533,['unknown'],['unknown'],['Alasideos']
-759534,['unknown'],['unknown'],"['Mon.', 'Ama Annas']"
+759534,['unknown'],['unknown'],"['Ama Annas', 'Mon.']"
 759535,['unknown'],['unknown'],['Ammonos']
 759536,['unknown'],['unknown'],"['Apa Anastasiou', 'Mon.']"
-759537,['unknown'],['unknown'],"['Mon.', 'Apa Antoniou']"
+759537,['unknown'],['unknown'],"['Apa Antoniou', 'Mon.']"
 759538,['unknown'],['unknown'],"['Apa Dorotheou', 'Mon.']"
 759539,['unknown'],['unknown'],"['Apa Ieremiou', 'Mon.']"
-759540,['unknown'],['unknown'],"['Mon.', 'Apa Pamin']"
+759540,['unknown'],['unknown'],"['Apa Pamin', 'Mon.']"
 759542,['unknown'],['unknown'],"['Apa Theodorou', 'Mon.']"
-759543,['unknown'],['unknown'],"['Mon.', 'Apa Thomas']"
+759543,['unknown'],['unknown'],"['Apa Thomas', 'Mon.']"
 759544,['unknown'],['unknown'],['Archiou']
 759545,['unknown'],['unknown'],['Areos Kome']
 759547,['unknown'],['unknown'],['Bekre']
@@ -4883,7 +4883,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 759672,['unknown'],['unknown'],['Tertonpso']
 759673,['unknown'],['unknown'],['Tertonsamoou']
 759674,['unknown'],['unknown'],['Terythis']
-759675,['unknown'],['unknown'],"['Mon.', 'Tesmine']"
+759675,['unknown'],['unknown'],"['Tesmine', 'Mon.']"
 759676,['unknown'],['unknown'],['Teuparat']
 759678,['unknown'],['unknown'],['Thnephi']
 759679,['unknown'],['unknown'],['Thotis']
@@ -4929,7 +4929,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 585969,['unknown'],['unknown'],['Thyrgonidai']
 585970,['unknown'],['unknown'],['Titakidai']
 585971,['Τριπυργία'],['grc'],['Tripyrgia']
-585972,['Τυρμεῖδαι'],['grc'],"['Tyrmeidai', 'Tyrmeîdai']"
+585972,['Τυρμεῖδαι'],['grc'],"['Tyrmeîdai', 'Tyrmeidai']"
 589657,['unknown'],['unknown'],['Acharna']
 589673,['unknown'],['unknown'],['Agneion Sinus']
 589675,['unknown'],['unknown'],['Aigaion Antron']
@@ -4942,8 +4942,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 589692,['unknown'],['unknown'],['Andros']
 589693,['Ἄνδρος'],['grc'],['Andros']
 589694,['unknown'],['unknown'],['Anopolis']
-589700,['unknown'],['unknown'],"['Apollo Erethimios', 'T.']"
-589701,['unknown'],['unknown'],"['T.', 'Apollo']"
+589700,['unknown'],['unknown'],"['T.', 'Apollo Erethimios']"
+589701,['unknown'],['unknown'],"['Apollo', 'T.']"
 589702,['unknown'],['unknown'],['Apollonia']
 589703,['unknown'],['unknown'],['Apollonia']
 589705,['unknown'],['unknown'],['Araden']
@@ -5001,7 +5001,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 589801,['unknown'],['unknown'],['Hellen']
 589803,['unknown'],['unknown'],['Hermaia Pr.']
 589804,['unknown'],['unknown'],['Hermas']
-589805,['unknown'],['unknown'],"['Aphrodite', 'T.', 'Hermes']"
+589805,['unknown'],['unknown'],"['Hermes', 'Aphrodite', 'T.']"
 589806,['unknown'],['unknown'],['Heteireia']
 589809,['unknown'],['unknown'],['Hippokoronion M.']
 589810,['unknown'],['unknown'],['Hydramia']
@@ -5087,7 +5087,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 589953,['unknown'],['unknown'],['Naulochos']
 589955,['unknown'],['unknown'],['Netteia']
 589957,['unknown'],['unknown'],['Oleros']
-589958,['Ὠλίαρος'],['grc'],"['Ōlíaros', 'Oliaros']"
+589958,['Ὠλίαρος'],['grc'],"['Oliaros', 'Ōlíaros']"
 589959,['Ὄλους'],['grc'],['Olous']
 589960,['unknown'],['unknown'],['Omphalion']
 589961,['unknown'],['unknown'],['Onysia']
@@ -5114,8 +5114,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 590002,['unknown'],['unknown'],['Polyaigos']
 590004,['unknown'],['unknown'],['Pontoreia']
 590005,['unknown'],['unknown'],['Porthmos Sinus']
-590006,['unknown'],['unknown'],"['T.', 'Poseidon', 'Amphitrite']"
-590007,['unknown'],['unknown'],"['T.', 'Poseidon Porthmios']"
+590006,['unknown'],['unknown'],"['Amphitrite', 'Poseidon', 'T.']"
+590007,['unknown'],['unknown'],"['Poseidon Porthmios', 'T.']"
 590008,['unknown'],['unknown'],['Potamos']
 590009,['unknown'],['unknown'],['Pothereus']
 590011,['unknown'],['unknown'],['Praisos']
@@ -5154,7 +5154,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 590072,['unknown'],['unknown'],['Tarra']
 590073,['unknown'],['unknown'],['Tenos']
 590074,['τῆνος'],['grc'],['Tenos']
-590075,['unknown'],['unknown'],"['T.', 'Theai kai Nymphai']"
+590075,['unknown'],['unknown'],"['Theai kai Nymphai', 'T.']"
 590076,['unknown'],['unknown'],['Theren']
 590077,['unknown'],['unknown'],['Thermydon Sinus']
 590078,['unknown'],['unknown'],['Thoanteion Pr.']
@@ -5164,8 +5164,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 590084,['unknown'],['unknown'],['Tylisos']
 590097,['unknown'],['unknown'],['Zagora']
 590098,['unknown'],['unknown'],['Zephyrion Pr.']
-590099,['unknown'],['unknown'],"['T.', 'Zeus Atabyrios']"
-590101,['unknown'],['unknown'],"['Zeus Thenatas', 'T.']"
+590099,['unknown'],['unknown'],"['Zeus Atabyrios', 'T.']"
+590101,['unknown'],['unknown'],"['T.', 'Zeus Thenatas']"
 594942,['unknown'],['unknown'],['Achaia']
 594943,['unknown'],['unknown'],['Adiounos']
 594945,['unknown'],['unknown'],['Angyleia']
@@ -5349,8 +5349,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 599500,['unknown'],['unknown'],['Aphrodisias Pr.']
 599504,['unknown'],['unknown'],"['Apollo Asgelatos', 'T.']"
 599505,['unknown'],['unknown'],"['Apollo Lepsios', 'T.']"
-599506,['unknown'],['unknown'],"['T.', 'Apollo']"
-599507,['unknown'],['unknown'],"['T.', 'Apollo']"
+599506,['unknown'],['unknown'],"['Apollo', 'T.']"
+599507,['unknown'],['unknown'],"['Apollo', 'T.']"
 599509,['unknown'],['unknown'],['Apollonion']
 599512,['unknown'],['unknown'],"['T.', 'Archilocheion']"
 599514,['unknown'],['unknown'],['Arethousa']
@@ -5370,8 +5370,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 599536,['unknown'],['unknown'],['Astypalaia']
 599537,['unknown'],['unknown'],['Astypalaia M.']
 599538,['unknown'],['unknown'],['Astypalaia Pr.']
-599540,['unknown'],['unknown'],"['Athena Poliouchos', 'T.']"
-599541,['unknown'],['unknown'],"['Athena', 'Zeus', 'T.']"
+599540,['unknown'],['unknown'],"['T.', 'Athena Poliouchos']"
+599541,['unknown'],['unknown'],"['Athena', 'T.', 'Zeus']"
 599543,['unknown'],['unknown'],['Aulai']
 599544,['unknown'],['unknown'],['Aulon']
 599548,['unknown'],['unknown'],['Bargasa']
@@ -5409,7 +5409,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 599601,['unknown'],['unknown'],['Drios M.']
 599604,['unknown'],['unknown'],"['Aphrodite', 'Eileithyaia', 'Zeus Hypatos', 'T.']"
 599605,['unknown'],['unknown'],['Elaioussa']
-599606,['unknown'],['unknown'],"['T.', 'Eleusinioi Theoi']"
+599606,['unknown'],['unknown'],"['Eleusinioi Theoi', 'T.']"
 599607,['unknown'],['unknown'],['Eleusis']
 599608,['unknown'],['unknown'],['Elytas']
 599614,['unknown'],['unknown'],['Euhippe']
@@ -5578,10 +5578,10 @@ pid,nameAttested,nameLanguage,nameTransliterated
 599895,['unknown'],['unknown'],['Polichne']
 599896,['unknown'],['unknown'],['Polypodousa']
 599898,['unknown'],['unknown'],['Poseidion Pr.']
-599899,['unknown'],['unknown'],"['T.', 'Poseidon Phytalmios']"
+599899,['unknown'],['unknown'],"['Poseidon Phytalmios', 'T.']"
 59990,['unknown'],['unknown'],['Pentapolis']
 599900,['unknown'],['unknown'],['Poseidon Pr.']
-599901,['unknown'],['unknown'],"['T.', 'Poseidon']"
+599901,['unknown'],['unknown'],"['Poseidon', 'T.']"
 608476833,['Tempio di Hera detto la Basilica'],['it'],['Tempio di Hera detto la Basilica']
 395910246,['Ara of Marco Nonio Balbo'],['en'],['Ara of Marco Nonio Balbo']
 127640903,['Amphithéâtre des Trois Gaules'],['fr'],"['Amphitheatre des Trois Gaules', 'Amphithéâtre des Trois Gaules']"
@@ -5610,13 +5610,13 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550562,['Ἁλίσαρνα'],['grc'],['Halisarna']
 550563,['unknown'],['unknown'],['Halonessos']
 550564,['unknown'],['unknown'],['Halonnesos']
-550565,['Ἁμαξιτός'],['grc'],"['Hamaxitós', 'Hamaxitos']"
+550565,['Ἁμαξιτός'],['grc'],"['Hamaxitos', 'Hamaxitós']"
 550566,['unknown'],['unknown'],['Harmatos Pr.']
 550567,['Ἑκατόννησοί'],['grc'],['Hekatonnesoi']
 550568,['unknown'],['unknown'],['Helos']
 550569,['unknown'],['unknown'],['Hephaistia']
 550570,['unknown'],['unknown'],['Herakleia']
-550572,['unknown'],['unknown'],"['T.', 'Herakles']"
+550572,['unknown'],['unknown'],"['Herakles', 'T.']"
 550573,['unknown'],['unknown'],['Hermeios Sinus']
 550575,['unknown'],['unknown'],['Hermus']
 550579,['unknown'],['unknown'],['Hippoi']
@@ -5703,7 +5703,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550733,['unknown'],['unknown'],['Mesate Pr.']
 550734,['unknown'],['unknown'],['Messon']
 550735,['unknown'],['unknown'],['Metaon']
-550736,['unknown'],['unknown'],"['T.', 'Meter Plastena']"
+550736,['unknown'],['unknown'],"['Meter Plastena', 'T.']"
 550737,['unknown'],['unknown'],"['Meter Theon', 'T.']"
 550738,['unknown'],['unknown'],['Methymna']
 550741,['unknown'],['unknown'],['Metropolis']
@@ -5765,7 +5765,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 432671,['Amasenus'],['la'],['Amasenus']
 432674,['unknown'],['unknown'],['Amyclanus Sinus']
 432679,['unknown'],['unknown'],['Antinum']
-432682,['unknown'],['unknown'],"['T.', 'Apollo et Nymphae Nitrodes']"
+432682,['unknown'],['unknown'],"['Apollo et Nymphae Nitrodes', 'T.']"
 432688,['unknown'],['unknown'],['Aquae Caeretanae']
 432689,['unknown'],['unknown'],['Aquae Sinuessanae']
 432691,['unknown'],['unknown'],['Aquae Vescinae']
@@ -5773,7 +5773,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 432702,['Fregellana arx'],['la'],['Arx Fregellana']
 432703,['unknown'],['unknown'],['Astura']
 432705,['unknown'],['unknown'],['Atella']
-432709,"['Aufidena', 'Avfidena']",['la'],['Aufidena']
+432709,"['Avfidena', 'Aufidena']",['la'],['Aufidena']
 432711,['unknown'],['la'],['Aurunci']
 432716,['unknown'],['unknown'],['Baiae']
 432717,['unknown'],['unknown'],['Baianus Sinus']
@@ -5890,7 +5890,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 433117,['unknown'],['unknown'],['Sidicini']
 433120,['unknown'],['unknown'],['Simbruini M.']
 433121,['Sinonia'],['la'],['Sinonia']
-433123,['unknown'],['unknown'],"['T.', 'Sirenae']"
+433123,['unknown'],['unknown'],"['Sirenae', 'T.']"
 433125,['Sirpivm'],['la'],['Sirpium']
 433126,['unknown'],['unknown'],['Sora']
 433128,['unknown'],['unknown'],['Stabiae']
@@ -6098,7 +6098,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 438871,['Uercellium'],['la'],['Vercellium']
 438872,['unknown'],['unknown'],['Verrugo']
 438873,['unknown'],['unknown'],['Vescellium']
-438874,"['Uescia', 'Vescia']",['la'],['Vescia']
+438874,"['Vescia', 'Uescia']",['la'],['Vescia']
 438875,['unknown'],['unknown'],['Veseris']
 438876,['unknown'],['unknown'],['Via Annia']
 438877,['unknown'],['unknown'],['Via Cornelia']
@@ -6182,7 +6182,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 442596,"['Mons Garganus', 'Mons Garganvs']",['la'],['Garganus M.']
 442607,['unknown'],['unknown'],['Hadrianou Hormos']
 442609,['unknown'],['unknown'],['Hales']
-442611,['unknown'],['unknown'],"['T.', 'Hera']"
+442611,['unknown'],['unknown'],"['Hera', 'T.']"
 442614,['unknown'],['unknown'],['Hirpini']
 442618,['Ἰάπυγας'],['grc'],['Iapyges']
 442626,['unknown'],['unknown'],['Karbinai']
@@ -6294,20 +6294,20 @@ pid,nameAttested,nameLanguage,nameTransliterated
 540645,['unknown'],['unknown'],['Aphetai']
 540646,['unknown'],['unknown'],"['T.', 'Aphrodite Phystiou']"
 540647,['unknown'],['unknown'],['Apidanos']
-540648,['unknown'],['unknown'],"['T.', 'Apollo']"
-540649,['unknown'],['unknown'],"['T.', 'Apollo']"
-540650,['unknown'],['unknown'],"['T.', 'Apollo']"
-540651,['unknown'],['unknown'],"['T.', 'Apollo']"
-540652,['unknown'],['unknown'],"['T.', 'Apollo']"
-540653,['unknown'],['unknown'],"['T.', 'Apollo Nasiotas']"
-540654,['unknown'],['unknown'],"['T.', 'Apollo Tegyraios']"
-540655,['unknown'],['unknown'],"['T.', 'Apollo Thourios']"
+540648,['unknown'],['unknown'],"['Apollo', 'T.']"
+540649,['unknown'],['unknown'],"['Apollo', 'T.']"
+540650,['unknown'],['unknown'],"['Apollo', 'T.']"
+540651,['unknown'],['unknown'],"['Apollo', 'T.']"
+540652,['unknown'],['unknown'],"['Apollo', 'T.']"
+540653,['unknown'],['unknown'],"['Apollo Nasiotas', 'T.']"
+540654,['unknown'],['unknown'],"['Apollo Tegyraios', 'T.']"
+540655,['unknown'],['unknown'],"['Apollo Thourios', 'T.']"
 540656,['unknown'],['unknown'],['Arakynthos M.']
 540657,['unknown'],['unknown'],"['Archegetes', 'T.']"
 540658,['unknown'],['unknown'],['Argithea']
-540664,['unknown'],['unknown'],"['T.', 'Artemis Diktynnaia']"
-540665,['unknown'],['unknown'],"['T.', 'Artemis Elaphebolia']"
-540666,['unknown'],['unknown'],"['T.', 'Artemis Hegemone']"
+540664,['unknown'],['unknown'],"['Artemis Diktynnaia', 'T.']"
+540665,['unknown'],['unknown'],"['Artemis Elaphebolia', 'T.']"
+540666,['unknown'],['unknown'],"['Artemis Hegemone', 'T.']"
 540668,['unknown'],['unknown'],['Ascuris Palus']
 540669,['unknown'],['unknown'],"['T.', 'Asklepios']"
 540670,['unknown'],['unknown'],['Askra']
@@ -6316,11 +6316,11 @@ pid,nameAttested,nameLanguage,nameTransliterated
 540675,['unknown'],['unknown'],['Atalante']
 540676,['unknown'],['unknown'],['Athamania']
 540677,['unknown'],['unknown'],['Itonion']
-540678,['unknown'],['unknown'],"['T.', 'Athena Itonia']"
-540679,['unknown'],['unknown'],"['T.', 'Athena Kranaia']"
+540678,['unknown'],['unknown'],"['Athena Itonia', 'T.']"
+540679,['unknown'],['unknown'],"['Athena Kranaia', 'T.']"
 540680,['unknown'],['unknown'],"['Athena', 'T.']"
 540681,['unknown'],['unknown'],['Athenai Diades']
-540682,['Ἄτραξ'],['grc'],"['Átrax', 'Atrax']"
+540682,['Ἄτραξ'],['grc'],"['Atrax', 'Átrax']"
 540683,['unknown'],['unknown'],['Attaleia']
 540687,['Ἄζωρος'],['grc'],['Azoros']
 540690,['unknown'],['unknown'],['Boibe L.']
@@ -6348,12 +6348,12 @@ pid,nameAttested,nameLanguage,nameTransliterated
 540722,['Δαφνοῦς'],['grc'],['Daphnous']
 540725,['unknown'],['unknown'],['Delion']
 540727,['unknown'],['unknown'],['Delphinion']
-540728,['unknown'],['unknown'],"['T.', 'Demeter']"
+540728,['unknown'],['unknown'],"['Demeter', 'T.']"
 540730,['unknown'],['unknown'],['Demetrias']
 540731,['unknown'],['unknown'],['Demetrion']
 540732,['unknown'],['unknown'],['Diakria']
 540734,['unknown'],['unknown'],['Dion']
-540735,['unknown'],['unknown'],"['T.', 'Dionysos']"
+540735,['unknown'],['unknown'],"['Dionysos', 'T.']"
 540736,['unknown'],['unknown'],['Dirphys M.']
 540737,['unknown'],['unknown'],['Dolopia']
 540738,['unknown'],['unknown'],['Donakon']
@@ -6481,7 +6481,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 540948,['unknown'],['unknown'],['Molykreion']
 540949,['unknown'],['unknown'],['Mondaia']
 540950,['unknown'],['unknown'],['Mopsion']
-540951,['unknown'],['unknown'],"['T.', 'Musae Heliconiae']"
+540951,['unknown'],['unknown'],"['Musae Heliconiae', 'T.']"
 540952,['unknown'],['unknown'],['Myania']
 540953,['unknown'],['unknown'],['Mykalessos']
 540954,['unknown'],['unknown'],['Mylai']
@@ -6502,7 +6502,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 540978,['unknown'],['unknown'],['Okaleia']
 540979,['unknown'],['unknown'],['Olizon']
 540980,['unknown'],['unknown'],['Olmones']
-540981,['Ὀλοόσσων'],['grc'],"['Olooson', 'Oloóssōn']"
+540981,['Ὀλοόσσων'],['grc'],"['Oloóssōn', 'Olooson']"
 540983,['unknown'],['unknown'],['Olympos M.']
 540984,['Ὀγχηστὸς'],['grc'],['Onchestos']
 540985,['unknown'],['unknown'],['Onochonos']
@@ -6561,7 +6561,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 541073,['unknown'],['unknown'],['Proerna']
 541076,['unknown'],['unknown'],['Psaphis']
 541077,['unknown'],['unknown'],['Pteleon']
-541078,['unknown'],['unknown'],"['T.', 'Ptoios']"
+541078,['unknown'],['unknown'],"['Ptoios', 'T.']"
 541079,['unknown'],['unknown'],['Pylene']
 541081,['Πύρασος'],['grc'],['Pyrasos']
 541085,['unknown'],['unknown'],['Rhizous']
@@ -6575,7 +6575,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 541094,['unknown'],['unknown'],['Selinous']
 541096,['unknown'],['unknown'],['Sepias']
 541097,['unknown'],['unknown'],['Sepias Pr.']
-541098,['unknown'],['unknown'],"['T.', 'Serapis']"
+541098,['unknown'],['unknown'],"['Serapis', 'T.']"
 541099,['unknown'],['unknown'],['Side']
 541104,['unknown'],['unknown'],['Skiathos']
 541106,['unknown'],['unknown'],['Skolos']
@@ -6622,7 +6622,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 541174,['unknown'],['unknown'],['Xyniai']
 541175,['unknown'],['unknown'],['Xynias L.']
 541178,['unknown'],['unknown'],"['T.', 'Zeus Akraios']"
-541179,['unknown'],['unknown'],"['T.', 'Zeus Hypatos']"
+541179,['unknown'],['unknown'],"['Zeus Hypatos', 'T.']"
 543602,['unknown'],['unknown'],['Achaeoi']
 543603,['unknown'],['unknown'],['Acharne']
 543604,['unknown'],['unknown'],['Achilleion']
@@ -6653,7 +6653,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 543631,['unknown'],['unknown'],['Aperanteia']
 543632,['unknown'],['unknown'],['Aphareus']
 543633,['unknown'],['unknown'],['Apollonia']
-543634,['unknown'],['unknown'],"['T.', 'Apollo Phylleios']"
+543634,['unknown'],['unknown'],"['Apollo Phylleios', 'T.']"
 543635,['unknown'],['unknown'],['Arakynthos M.']
 543636,['unknown'],['unknown'],['Ares']
 543637,['unknown'],['unknown'],['Argenta']
@@ -6666,7 +6666,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 543644,['unknown'],['unknown'],"['T.', 'Asklepios']"
 543645,['unknown'],['unknown'],['Athamas M.']
 543646,['unknown'],['unknown'],['Athenaion']
-543647,['unknown'],['unknown'],"['T.', 'Athena Polias']"
+543647,['unknown'],['unknown'],"['Athena Polias', 'T.']"
 543648,['unknown'],['unknown'],['Augeiai']
 543649,['unknown'],['unknown'],['Aulon']
 543650,['unknown'],['unknown'],['Auroschadophoros']
@@ -6696,7 +6696,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 543680,['unknown'],['unknown'],['Dexieis']
 543681,['unknown'],['unknown'],['Dia']
 543682,['unknown'],['unknown'],['Diakres']
-543683,['unknown'],['unknown'],"['T.', 'Diana Tisaia']"
+543683,['unknown'],['unknown'],"['Diana Tisaia', 'T.']"
 543685,['unknown'],['unknown'],['Dismaros']
 543686,['unknown'],['unknown'],['Dodona']
 543687,['unknown'],['unknown'],['Donacoessa M.']
@@ -6863,7 +6863,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 543880,['unknown'],['unknown'],['Teuma']
 543882,['unknown'],['unknown'],['Thaumakie']
 543883,['unknown'],['unknown'],['Thermaeus']
-543884,['Θερμώδων'],['grc'],"['Thermodon', 'Thermṓdōn']"
+543884,['Θερμώδων'],['grc'],"['Thermṓdōn', 'Thermodon']"
 543885,['unknown'],['unknown'],['Thimarum']
 543886,['unknown'],['unknown'],['Thyia']
 543887,['unknown'],['unknown'],['Thyoei']
@@ -6896,8 +6896,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550433,['Antandros'],['la'],['Antandros']
 550438,['unknown'],['unknown'],['Aphrodisios']
 550439,['unknown'],['unknown'],['Apias Pedion']
-550440,['unknown'],['unknown'],"['Apollo Axyros', 'T.']"
-550441,['unknown'],['unknown'],"['T.', 'Apollo Karios']"
+550440,['unknown'],['unknown'],"['T.', 'Apollo Axyros']"
+550441,['unknown'],['unknown'],"['Apollo Karios', 'T.']"
 550442,['unknown'],['unknown'],['Apollonia']
 550444,['unknown'],['unknown'],['Apollonis']
 550445,['unknown'],['unknown'],['Apollonis']
@@ -6908,7 +6908,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550453,['unknown'],['unknown'],['Arios M.']
 550454,['unknown'],['unknown'],['Ariousia']
 550455,['unknown'],['unknown'],['Arisba']
-550456,['unknown'],['unknown'],"['T.', 'Men Tiamou', 'Artemis Anaeitis']"
+550456,['unknown'],['unknown'],"['Artemis Anaeitis', 'T.', 'Men Tiamou']"
 550457,['unknown'],['unknown'],"['T.', 'Artemis Thermia']"
 550459,['unknown'],['unknown'],['Asklepieion']
 550460,['unknown'],['unknown'],['Aspaneus']
@@ -6942,7 +6942,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 550511,['unknown'],['unknown'],['Dareioukome']
 550512,['Δελφίνιον'],['grc'],['Delphinion']
 550513,['unknown'],['unknown'],['Diginda']
-550514,['unknown'],['unknown'],"['T.', 'Dionysos Bresagenes']"
+550514,['unknown'],['unknown'],"['Dionysos Bresagenes', 'T.']"
 550515,['unknown'],['unknown'],['Dios Hieron']
 550516,['unknown'],['unknown'],['Dios Hieron']
 550517,['unknown'],['unknown'],['Doroukome']
@@ -7135,14 +7135,14 @@ pid,nameAttested,nameLanguage,nameTransliterated
 353133530,['Anfiteatro de Tarragona'],['es'],['Anfiteatro de Tarragona']
 353133531,['La Maison Carrée de Nîmes'],['fr'],['La Maison Carrée de Nîmes']
 571787445,['Abbotsbury Abbey'],['en'],['Abbotsbury Abbey']
-772038890,['باب الذراع'],['arb'],"['Bāb edh-Dhrāʻ Bāb adh-Dhrāʻ', ""Bab al-Dhra'"", ""Bab edh-Dhra'"", ""Bab adh-Dhra'"", 'Bāb al-Dhrāʻ ']"
+772038890,['باب الذراع'],['arb'],"['Bāb al-Dhrāʻ ', ""Bab edh-Dhra'"", 'Bāb edh-Dhrāʻ Bāb adh-Dhrāʻ', ""Bab adh-Dhra'"", ""Bab al-Dhra'""]"
 264408879,['Taberna pomaria of Felix'],['en'],['Taberna pomaria of Felix']
 416199695,['Pistrinum of Betitius Placidus'],['en'],['Pistrinum of Betitius Placidus']
 550420,['unknown'],['unknown'],['Aisepos']
 996877399,['unknown'],['sux'],['Eanna']
 857932175,['Δωθαεὶν'],['grc'],['Dothaein']
 928666393,['unknown'],['unknown'],['Tavāna']
-242329712,['Tilmen Höyük'],['tr'],"['Tilmen Hoyuk', 'Tilmen Höyük']"
+242329712,['Tilmen Höyük'],['tr'],"['Tilmen Höyük', 'Tilmen Hoyuk']"
 111763397,['Casa dei Crescenzi'],['it'],['Casa dei Crescenzi']
 107397415,['Tumulo di Montecalvario'],['it'],['Tumulo di Montecalvario']
 208942846,['Ponte di Augusto'],['it'],['Ponte di Augusto']
@@ -7193,7 +7193,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 658629,['unknown'],['unknown'],['Tura d’ Urhay']
 658632,['unknown'],['unknown'],['Ulnia']
 658635,['unknown'],['unknown'],['Zaerous']
-658637,['unknown'],['unknown'],"['T.', 'Zeus Madbachos']"
+658637,['unknown'],['unknown'],"['Zeus Madbachos', 'T.']"
 662137,['unknown'],['unknown'],['Alagma']
 662138,['unknown'],['unknown'],['Anasta']
 662139,['unknown'],['akk'],['Antiocheia pros Tauro']
@@ -7211,7 +7211,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 662154,['unknown'],['unknown'],['Commoris Vicus']
 662156,['unknown'],['unknown'],['Elaphos M.']
 662157,['unknown'],['unknown'],['Elephanton']
-662158,['unknown'],['unknown'],"['Mon.', 'Eliadis']"
+662158,['unknown'],['unknown'],"['Eliadis', 'Mon.']"
 662159,['unknown'],['unknown'],['Erana']
 662161,['unknown'],['unknown'],['Gabeni']
 662162,['unknown'],['unknown'],['Gandigoura']
@@ -7241,9 +7241,9 @@ pid,nameAttested,nameLanguage,nameTransliterated
 100593149,['unknown'],['sux'],['Ehulhul']
 477553842,['unknown'],['sux'],['Ebabbar']
 978492068,['unknown'],['sux'],['Eamaškuga']
-780715578,['unknown'],['en'],"['Grave Circle A', 'Mycenae']"
+780715578,['unknown'],['en'],"['Mycenae', 'Grave Circle A']"
 827909266,['Bakla Tepe Höyüğü'],['tr'],['Bakla Tepe Hoyugu']
-890816517,['Հոռոմոս'],['hy'],"['Horomos', 'Hoṙomos', 'Hoṛomos']"
+890816517,['Հոռոմոս'],['hy'],"['Hoṛomos', 'Hoṙomos', 'Horomos']"
 678313544,['unknown'],['ar'],['Tell al-Dhibayii']
 879238596,['Braca? Mons'],['la'],['Braca? Mons']
 814891878,['unknown'],['la'],['Aemilia']
@@ -7277,7 +7277,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 462288,['unknown'],['unknown'],['Longanos']
 462289,['unknown'],['unknown'],['Longaricum']
 462290,['unknown'],['unknown'],['Lykos']
-462292,['unknown'],['unknown'],"['M.', 'see Monte']"
+462292,['unknown'],['unknown'],"['see Monte', 'M.']"
 462294,['unknown'],['unknown'],['Makron Akron']
 462295,['Μακτώριον'],['grc'],['Maktorion']
 462302,['unknown'],['unknown'],['Maroneus M.']
@@ -7542,18 +7542,18 @@ pid,nameAttested,nameLanguage,nameTransliterated
 335307374,['Dura-Europos synagogue'],['en'],['Dura-Europos synagogue']
 104403664,['Termas Romanas de Campo Valdés'],['es'],['Termas Romanas de Campo Valdés']
 779658357,['Domus del Lararium'],['it'],['Domus del Lararium']
-756113039,['Երերույքի տաճար'],['hy'],"['Yereruyk’i tachar', 'Ereruyk’i tachar']"
+756113039,['Երերույքի տաճար'],['hy'],"['Ereruyk’i tachar', 'Yereruyk’i tachar']"
 927235844,['Նորավանք'],['hy'],['Noravank']
 955155101,['Պտղնիի տաճար'],['hy'],['Ptghnii tachar']
 726135853,['Torrente Basentello'],['it'],['Torrente Basentello']
-318745558,['قصر الخرانة'],['arb'],"['Qasr Khārāna', 'Qaşr al Kharānah', 'Qaşr al Ḩarrānah', 'Qaṣr al-Kharāna']"
+318745558,['قصر الخرانة'],['arb'],"['Qaşr al Ḩarrānah', 'Qaşr al Kharānah', 'Qaṣr al-Kharāna', 'Qasr Khārāna']"
 253102125,['Могильник Ашпыл'],['ru'],"[""Mogil'nik Ashpyl""]"
 45246735,"[""Porta all'Arco""]",['it'],"[""Porta all'Arco""]"
 745058964,['Ἀκαμαντίς'],['grc'],"['Akamantís', 'Akamantis']"
 864388873,['دير المدينة\u200e'],['ar'],"['Deir al-Medina', 'Deir el Medina', 'Deir el-Medina']"
-963537714,['बोधगया'],['hi'],"['Bōdh Gayā', 'Buddh Gaya', 'Buddhi Gaya', 'Bodhgaya']"
+963537714,['बोधगया'],['hi'],"['Bōdh Gayā', 'Bodhgaya', 'Buddh Gaya', 'Buddhi Gaya']"
 207236501,['unknown'],['la'],['Collina']
-413644954,['Братолюбовский курган'],['ru'],"['Bratolyubovskii Kurgan', 'Bratolyubovka Kurgan', 'Bratoli͡ubovskiĭ Kurgan', 'Bratolyubivka Kurgan', 'Bratoljubovka Kurgan']"
+413644954,['Братолюбовский курган'],['ru'],"['Bratolyubivka Kurgan', 'Bratolyubovka Kurgan', 'Bratoljubovka Kurgan', 'Bratoli͡ubovskiĭ Kurgan', 'Bratolyubovskii Kurgan']"
 645892849,['باش تبة'],['ar'],"['Bash Taba', 'Bash Tapa']"
 642540,['unknown'],['unknown'],['Limenai']
 642542,['unknown'],['unknown'],['Melanoscopium']
@@ -7729,7 +7729,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 658363,['unknown'],['unknown'],['Ad Orontem']
 658366,['unknown'],['unknown'],['Adatha']
 658369,['Ain Dara'],['en'],['Ain Dara']
-658372,['unknown'],['unknown'],"['Mon.', 'Alexandros']"
+658372,['unknown'],['unknown'],"['Alexandros', 'Mon.']"
 658373,['unknown'],['unknown'],['Aliaria']
 658379,['unknown'],['unknown'],['Anthemusia']
 658385,['unknown'],['unknown'],['Apamea']
@@ -7807,7 +7807,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 658559,['unknown'],['unknown'],['Orokassias Oros']
 817164756,['Casa dei Grifi'],['it'],['Casa dei Grifi']
 457780134,['Arco di Adriano'],['it'],['Arco di Adriano']
-66908841,"['Uia Aemilia', 'Via Aemilia']",['la'],['Via Aemilia']
+66908841,"['Via Aemilia', 'Uia Aemilia']",['la'],['Via Aemilia']
 652497050,['Tribono'],['la'],['Tribonum']
 708926627,['Abbotsbury Castle'],['en'],['Abbotsbury Castle']
 158081395,['circus Flaminius'],['la'],['circus Flaminius']
@@ -7934,7 +7934,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 452320,['unknown'],['unknown'],['Decastadium']
 452323,['Ἐμπόριον'],['grc'],['Emporion']
 452331,['Ἅληξ'],['grc'],['Halex']
-452332,['unknown'],['unknown'],"['T.', 'Hera']"
+452332,['unknown'],['unknown'],"['Hera', 'T.']"
 452333,['Heraclea'],['la'],['Heraclea']
 452334,['unknown'],['unknown'],['Heracleum Pr.']
 452338,['unknown'],['unknown'],['Hipporum']
@@ -8100,9 +8100,9 @@ pid,nameAttested,nameLanguage,nameTransliterated
 462125,['unknown'],['unknown'],['Calvisiana']
 462131,['unknown'],['unknown'],['Capitoniana']
 103123065,"[""Area Sacra di Sant'Omobono""]",['it'],"[""Area Sacra di Sant'Omobono""]"
-953163789,['unknown'],['en'],"['Γιούχτας', 'Iouktas', 'Mount Juktas', 'Ioukhtas', 'Iuktas']"
+953163789,['unknown'],['en'],"['Iuktas', 'Mount Juktas', 'Γιούχτας', 'Ioukhtas', 'Iouktas']"
 55660936,['Priniatikos Pyrgos'],['en'],['Priniatikos Pyrgos']
-963297878,['تلول الثلاثات'],['arb'],"['Tulūl al-Thulāthāt', 'Telul eth-Thalathat', 'Tulūl ath-Thulāthāt', 'Telul al-Thalathat']"
+963297878,['تلول الثلاثات'],['arb'],"['Tulūl ath-Thulāthāt', 'Telul al-Thalathat', 'Tulūl al-Thulāthāt', 'Telul eth-Thalathat']"
 759681,['unknown'],['unknown'],['Tisichis']
 759682,['unknown'],['unknown'],['Titkois']
 759683,['unknown'],['unknown'],['Tochnoubis']
@@ -8658,7 +8658,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 708406049,['unknown'],['it'],['Tomba dei Demoni Alati']
 560149180,['Catacomba di San Giovanni'],['it'],"['Catacomba di San Giovanni', 'Catacombe di San Giovanni']"
 620543181,['Turkdean'],['en'],['Turkdean']
-199339871,"[""Amphitheatre d'Avenches"", ""Amphithéatre d'Avenches""]",['fr'],"[""Amphithéatre d'Avenches""]"
+199339871,"[""Amphithéatre d'Avenches"", ""Amphitheatre d'Avenches""]",['fr'],"[""Amphithéatre d'Avenches""]"
 888625052,['Moгильник Maйтан'],['ru'],"['Mogilʹnik Maĭtan', 'Mogilʹnik Maytan ']"
 157243532,['Agorà di Alesa'],['it'],['Agorà di Alesa']
 743822664,['Соленый Дол'],['ru'],['Solenyĭ dol']
@@ -8666,7 +8666,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 765003289,['Большой Cалбыкский курган'],['ru'],['Большой Салбыкский курган']
 704746176,['Hadda'],['en'],['Hadda']
 243168300,['Mausoleo di Lucio Munazio Planco'],['it'],['Mausoleo di Lucio Munazio Planco']
-599902,['unknown'],['unknown'],"['T.', 'Poseidon']"
+599902,['unknown'],['unknown'],"['Poseidon', 'T.']"
 599904,['unknown'],['unknown'],['Pramnos M.']
 599907,['unknown'],['unknown'],['Prion M.']
 59991,['unknown'],['unknown'],['Persakra']
@@ -8680,7 +8680,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 599929,['sinus Schoenus'],['la'],['Schoenus Sinus']
 599931,['unknown'],['unknown'],['Selinous']
 599932,['unknown'],['unknown'],['Selinousia L.']
-599936,['unknown'],['unknown'],"['T.', 'Sinuri']"
+599936,['unknown'],['unknown'],"['Sinuri', 'T.']"
 599939,['unknown'],['unknown'],['Skanderion Pr.']
 599940,['unknown'],['unknown'],['Skolopoeis']
 599941,['unknown'],['unknown'],['Skopias Pr.']
@@ -8725,7 +8725,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 599997,['unknown'],['unknown'],['Xystis']
 599999,['unknown'],['unknown'],['Zephyrion']
 60000,['unknown'],['unknown'],['Porouaroi']
-600002,['unknown'],['unknown'],"['T.', 'Zeus Melosios']"
+600002,['unknown'],['unknown'],"['Zeus Melosios', 'T.']"
 60004,['unknown'],['unknown'],['Praesti']
 60005,['unknown'],['unknown'],['Prapiotai']
 60006,['unknown'],['unknown'],['Prasiane']
@@ -8737,7 +8737,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 60018,['unknown'],['unknown'],['Rhappha']
 60019,['unknown'],['unknown'],['Rhodopha']
 60022,['unknown'],['unknown'],['Sagapa Stoma']
-600227,['Değirmendere aqueduct'],['en'],"['Değirmendere aqueduct', 'Değirmendere Aquädukt', 'Deirmendere aqueduct']"
+600227,['Değirmendere aqueduct'],['en'],"['Değirmendere aqueduct', 'Deirmendere aqueduct', 'Değirmendere Aquädukt']"
 60024,['unknown'],['unknown'],['Sakai']
 60027,['unknown'],['unknown'],['Salariga']
 60028,['unknown'],['unknown'],['Sambalaka']
@@ -9121,7 +9121,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 60717,['unknown'],['unknown'],['Zotha L.']
 609288,['unknown'],['unknown'],['Abouadeineita']
 609289,['Ἀβρεττηνή'],['grc'],['Abrettene']
-609290,['unknown'],['unknown'],"['Agdistis', 'T.']"
+609290,['unknown'],['unknown'],"['T.', 'Agdistis']"
 609291,['unknown'],['unknown'],['Agros Thermon']
 609292,['Ἀζανοί'],['grc'],['Aizanoi']
 609293,['unknown'],['unknown'],['Akmonia']
@@ -9132,8 +9132,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 609304,['unknown'],['unknown'],"['T.', 'Angdisseon']"
 609305,['unknown'],['unknown'],['Ankyra']
 609306,['unknown'],['unknown'],['Anthios']
-609310,['unknown'],['unknown'],"['T.', 'Apollo']"
-609311,['unknown'],['unknown'],"['T.', 'Apollo']"
+609310,['unknown'],['unknown'],"['Apollo', 'T.']"
+609311,['unknown'],['unknown'],"['Apollo', 'T.']"
 609312,['unknown'],['unknown'],"['T.', 'Apollo Lairmenos']"
 609314,['unknown'],['unknown'],['Appia']
 609315,['unknown'],['unknown'],['Appolena']
@@ -9155,11 +9155,11 @@ pid,nameAttested,nameLanguage,nameTransliterated
 609341,['unknown'],['unknown'],['Beudena']
 609343,['unknown'],['unknown'],['Birgena']
 609345,['unknown'],['unknown'],['Brouzos']
-609352,['unknown'],['unknown'],"['T.', 'Cybele']"
-609353,['unknown'],['unknown'],"['T.', 'Cybele']"
-609354,['unknown'],['unknown'],"['T.', 'Cybele']"
+609352,['unknown'],['unknown'],"['Cybele', 'T.']"
+609353,['unknown'],['unknown'],"['Cybele', 'T.']"
+609354,['unknown'],['unknown'],"['Cybele', 'T.']"
 609357,['unknown'],['unknown'],['Dagoutenoi']
-609359,['unknown'],['unknown'],"['Dima', 'Kerbia']"
+609359,['unknown'],['unknown'],"['Kerbia', 'Dima']"
 609360,['unknown'],['unknown'],['Dindymon M.']
 609361,['unknown'],['unknown'],['Dindymos M.']
 609362,['unknown'],['unknown'],['Diokleia']
@@ -9220,11 +9220,11 @@ pid,nameAttested,nameLanguage,nameTransliterated
 609460,['unknown'],['unknown'],['Meiros']
 609461,['unknown'],['unknown'],['Meiros Megale']
 609462,['unknown'],['unknown'],"['T.', 'Men Askaenos']"
-609464,['unknown'],['unknown'],"['T.', 'Meter apo Speleou']"
+609464,['unknown'],['unknown'],"['Meter apo Speleou', 'T.']"
 609465,['unknown'],['unknown'],['Meter Arezastis']
 609466,['unknown'],['unknown'],"['T.', 'Meter Phileis']"
-609467,['unknown'],['unknown'],"['T.', 'Meter Steunene']"
-609468,['unknown'],['unknown'],"['T.', 'Meter Theon 1']"
+609467,['unknown'],['unknown'],"['Meter Steunene', 'T.']"
+609468,['unknown'],['unknown'],"['Meter Theon 1', 'T.']"
 609469,['unknown'],['unknown'],"['Meter Theon 2', 'T.']"
 609470,['unknown'],['unknown'],['Metropolis']
 609471,['unknown'],['unknown'],['Metropolis']
@@ -9292,22 +9292,22 @@ pid,nameAttested,nameLanguage,nameTransliterated
 609563,['unknown'],['unknown'],['Tymandos']
 609573,['unknown'],['unknown'],['Zemmeana']
 609574,['unknown'],['unknown'],"['Zeus Alsenos', 'T.']"
-609575,['unknown'],['unknown'],"['Ampeleites', 'T.', 'Zeus Andreas']"
-609577,['unknown'],['unknown'],"['Soter', 'T.', 'Zeus Bennios']"
+609575,['unknown'],['unknown'],"['Zeus Andreas', 'Ampeleites', 'T.']"
+609577,['unknown'],['unknown'],"['Zeus Bennios', 'T.', 'Soter']"
 609578,['unknown'],['unknown'],"['Zeus Bronton', 'T.']"
 609579,['unknown'],['unknown'],"['Zeus Bronton', 'T.']"
 609580,['unknown'],['unknown'],"['T.', 'Zeus Bronton 1']"
 609581,['unknown'],['unknown'],"['Zeus Bronton 2', 'T.']"
 609582,['unknown'],['unknown'],"['Zeus Bronton 3', 'T.']"
-609583,['unknown'],['unknown'],"['T.', 'Zeus Bronton Megas']"
-609584,['unknown'],['unknown'],"['Zeus ek Didymon Dryon', 'T.']"
-609585,['unknown'],['unknown'],"['T.', 'Zeus Keraunios ']"
-609586,['unknown'],['unknown'],"['Zeus Kersoullos', 'T.']"
+609583,['unknown'],['unknown'],"['Zeus Bronton Megas', 'T.']"
+609584,['unknown'],['unknown'],"['T.', 'Zeus ek Didymon Dryon']"
+609585,['unknown'],['unknown'],"['Zeus Keraunios ', 'T.']"
+609586,['unknown'],['unknown'],"['T.', 'Zeus Kersoullos']"
 609587,['unknown'],['unknown'],"['T.', 'Zeus Melenos']"
-609588,['unknown'],['unknown'],"['T.', 'Zeus Orkamaneites']"
+609588,['unknown'],['unknown'],"['Zeus Orkamaneites', 'T.']"
 609589,['unknown'],['unknown'],"['T.', 'Zeus Pandemos']"
 609590,['unknown'],['unknown'],"['T.', 'Zeus Sabazios']"
-609592,['unknown'],['unknown'],"['T.', 'Zeus Thimenos']"
+609592,['unknown'],['unknown'],"['Zeus Thimenos', 'T.']"
 609593,['unknown'],['unknown'],['Zingotos Kome']
 614572,['unknown'],['unknown'],['Abbasium']
 614573,['unknown'],['unknown'],['Abboanoi']
@@ -9523,18 +9523,18 @@ pid,nameAttested,nameLanguage,nameTransliterated
 462550377,['unknown'],['akk'],['Luhuāyu']
 462550378,['unknown'],['akk'],['Hanzanūa']
 733910291,['جمدة نصر\u200e\u200e'],['ar'],['Jemdet Nasr']
-966705384,['unknown'],['tr'],"['Korucutepe', 'Korucu Tepe']"
+966705384,['unknown'],['tr'],"['Korucu Tepe', 'Korucutepe']"
 957561489,['Teatro Romano Volterra'],['it'],['Teatro Romano Volterra']
 641775077,['Ἄρσαμον'],['grc'],['Arsamon']
 483627781,['unknown'],['it'],['Bagni di Nerone']
 534380454,['unknown'],['la'],['Falerna']
 784987444,['unknown'],['it'],['Villa romana della Cecchignola']
 243709573,['unknown'],['it'],['Torre di Mezzavia di Frascati']
-348167893,['Кара-тепе'],['ru'],"['Kara-Tepe', 'Karatepe']"
+348167893,['Кара-тепе'],['ru'],"['Karatepe', 'Kara-Tepe']"
 102529957,['unknown'],['en'],['Venusia amphitheatre']
 269449175,['Ἄζεια'],['grc'],['Azeia']
-710864305,['შიომღვიმე'],['ka'],"['Shiomghvime', 'Shio-mghvime', 'Shiomgvime', 'Shio-mgvime']"
-825074423,['نجع الدير'],['arz'],"['Naga ed-Dêr', 'Naj al Dayr', 'Naj‘ ad Dayr', 'Nag’ el Deir', 'Naga ed-Deir']"
+710864305,['შიომღვიმე'],['ka'],"['Shiomghvime', 'Shio-mgvime', 'Shiomgvime', 'Shio-mghvime']"
+825074423,['نجع الدير'],['arz'],"['Nag’ el Deir', 'Naj al Dayr', 'Naga ed-Deir', 'Naga ed-Dêr', 'Naj‘ ad Dayr']"
 492108154,['ანანაურის დიდი ყორღანი 3'],['ka'],['Ananauris didi gorġani 3']
 334578,['unknown'],['unknown'],['Limes Gemellensis']
 334579,['unknown'],['unknown'],['Limes Montensis']
@@ -9691,7 +9691,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 889074702,['Church of Saint Hripsimeh'],['en'],['Church of Saint Hripsimeh']
 826976465,['Ta’ Ħaġrat Temples'],['en'],['Ta’ Ħaġrat Temples']
 889101791,"['Vicus Iugarius', 'uicus Iugarius']",['la'],['Vicus Iugarius']
-112340551,['تل باکون'],['fa'],"['Tall-e Bakun', 'Tall-i Bakun']"
+112340551,['تل باکون'],['fa'],"['Tall-i Bakun', 'Tall-e Bakun']"
 570403,['Κύθνος'],['grc'],['Kythnos']
 570407,['unknown'],['unknown'],['Laconicus Sinus']
 570408,['unknown'],['unknown'],['Ladon']
@@ -10006,7 +10006,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 573204,['unknown'],['unknown'],['Enispe']
 573205,['unknown'],['unknown'],['Enopa']
 573206,['unknown'],['unknown'],['Epaioi']
-573207,['unknown'],['unknown'],"['Eparia', 'Eparitai']"
+573207,['unknown'],['unknown'],"['Eparitai', 'Eparia']"
 573208,['Ἐφύρα'],['grc'],['Ephyra']
 573210,['unknown'],['unknown'],['Epinoion']
 573211,['unknown'],['unknown'],['Epope']
@@ -10298,7 +10298,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 573548,['unknown'],['unknown'],['Tenos']
 573549,['Τευθέα'],['grc'],['Teuthea']
 573550,['unknown'],['unknown'],['Thalamai']
-573551,['Θαυμάσιον'],['grc'],"['Thaumásion', 'Thaumasion']"
+573551,['Θαυμάσιον'],['grc'],"['Thaumasion', 'Thaumásion']"
 573552,['unknown'],['unknown'],['Thea']
 573553,['unknown'],['unknown'],['Thenai']
 573554,['unknown'],['unknown'],['Therai']
@@ -10343,12 +10343,12 @@ pid,nameAttested,nameLanguage,nameTransliterated
 579869,['unknown'],['unknown'],['Ankyle Hypenerthen']
 579870,['unknown'],['unknown'],['Ankyle Kathyperthen']
 579871,['unknown'],['unknown'],['Anydros M.']
-579873,"['Ἀφίδναι', 'Ἄφιδνα']",['grc'],"['Áphidna', 'Aphídnai']"
+579873,"['Ἄφιδνα', 'Ἀφίδναι']",['grc'],"['Áphidna', 'Aphídnai']"
 579874,['unknown'],['unknown'],"['Aphrodite', 'T.']"
-579875,['unknown'],['unknown'],"['T.', 'Apollo']"
+579875,['unknown'],['unknown'],"['Apollo', 'T.']"
 579876,['Ἀραφήν'],['grc'],['Araphḗn']
-579878,['unknown'],['unknown'],"['T.', 'Artemis']"
-579879,['unknown'],['unknown'],"['T.', 'Artemis Brauronia']"
+579878,['unknown'],['unknown'],"['Artemis', 'T.']"
+579879,['unknown'],['unknown'],"['Artemis Brauronia', 'T.']"
 579880,['unknown'],['unknown'],['Asopos']
 579881,['unknown'],['unknown'],['Asty']
 579882,['unknown'],['unknown'],['Astypalaia Pr.']
@@ -10368,7 +10368,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 579905,['Δαιδαλίδαι'],['grc'],['Daidalídai']
 579906,['Δειραδιῶται'],['grc'],['Deiradiôtai']
 579907,['unknown'],['unknown'],['Dekeleia']
-579910,['unknown'],['unknown'],"['T.', 'Demeter']"
+579910,['unknown'],['unknown'],"['Demeter', 'T.']"
 579911,['unknown'],['unknown'],['Diakris']
 579912,['Διόμεια'],['grc'],['Diómeia']
 579915,['unknown'],['unknown'],['Eiresidai']
@@ -10405,12 +10405,12 @@ pid,nameAttested,nameLanguage,nameTransliterated
 579958,['unknown'],['unknown'],['Ikarion']
 579959,['Ἰλισσός'],['grc'],['Ilissos']
 579960,['unknown'],['unknown'],['Ionidai']
-579961,['Ἰφιστιάδαι'],['grc'],"['Iphistiádai', 'Iphistiadai']"
+579961,['Ἰφιστιάδαι'],['grc'],"['Iphistiadai', 'Iphistiádai']"
 579966,['unknown'],['unknown'],['Kantharos Limen']
 579969,['unknown'],['unknown'],['Kedoi']
 579970,['unknown'],['unknown'],['Keiriadai']
 579971,['unknown'],['unknown'],['Kephale']
-579972,['Κηφισιά'],['grc'],"['Kēphisiá', 'Kephisia']"
+579972,['Κηφισιά'],['grc'],"['Kephisia', 'Kēphisiá']"
 579973,['unknown'],['unknown'],['Kephisos']
 579974,['unknown'],['unknown'],['Kephisos']
 579975,['unknown'],['unknown'],['Kerameis']
@@ -10501,13 +10501,13 @@ pid,nameAttested,nameLanguage,nameTransliterated
 580100,['unknown'],['unknown'],['Salamis']
 580101,['unknown'],['unknown'],['Salamis']
 580103,['unknown'],['unknown'],['Selenia']
-580104,['Σημαχίδαι'],['grc'],"['Semachidai', 'Sēmachídai']"
+580104,['Σημαχίδαι'],['grc'],"['Sēmachídai', 'Semachidai']"
 580106,['unknown'],['unknown'],['Soros']
 580107,['unknown'],['unknown'],['Sounion']
 580108,['unknown'],['unknown'],['Sounion Pr.']
 580109,['Σφηττός'],['grc'],['Sphēttós']
 580110,['unknown'],['unknown'],['Steiria']
-580112,['Συπαληττός'],['grc'],"['Sypalēttós', 'Sypalettos']"
+580112,['Συπαληττός'],['grc'],"['Sypalettos', 'Sypalēttós']"
 580114,['Τανάγρᾳ'],['grc'],['Tanagra']
 580115,['unknown'],['unknown'],['Teithras']
 580116,['unknown'],['unknown'],['Tetrakomoi']
@@ -10522,8 +10522,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 580126,['Τρινέμεια'],['grc'],"['Trinémeia', 'Trinemeia']"
 580134,['Ξυπέτη'],['grc'],"['Xypete', 'Xypétē']"
 580136,['unknown'],['unknown'],['Zea Limen']
-580137,['unknown'],['unknown'],"['T.', 'Zeus Ombrios']"
-580138,['unknown'],['unknown'],"['T.', 'Zeus Ombrios']"
+580137,['unknown'],['unknown'],"['Zeus Ombrios', 'T.']"
+580138,['unknown'],['unknown'],"['Zeus Ombrios', 'T.']"
 580139,['unknown'],['unknown'],"['T.', 'Zeus Panhellenios']"
 580140,['unknown'],['la'],['Zoster Pr.']
 582862,['Κυδαθήναιον'],['grc'],['Kydathénaion']
@@ -10569,21 +10569,21 @@ pid,nameAttested,nameLanguage,nameTransliterated
 585922,['unknown'],['unknown'],['Klopidai']
 509089189,['Stonehenge'],['en'],['Stonehenge']
 444468888,['Tempio capitolino di Brescia'],['it'],['Tempio capitolino di Brescia']
-991964195,['Alacahöyük'],['tr'],"['Alaca Hoyuk', 'Alacahöyük', 'Alacahoyuk', 'Alaca Höyük']"
+991964195,['Alacahöyük'],['tr'],"['Alaca Höyük', 'Alaca Hoyuk', 'Alacahöyük', 'Alacahoyuk']"
 309101265,['unknown'],['en'],['Tell Jemmeh']
 908270988,['Близнецы'],['ru'],"['Bliznet︠s︡y', 'Bliznets']"
 588236458,['Νευροί'],['grc'],['Neuroi']
 151157248,['Porta Nigra'],['la'],['Porta Nigra']
 78124778,['Мотронинское городище'],['uk'],"['Motroninskoe Gorodishche', 'Motroninsky Gorodishche', 'Motroninskiy Gorodishche']"
 963441586,['Tempio di Segesta'],['it'],['Tempio di Segesta']
-718296310,['المعادي'],['arz'],"['al-Maadi', 'al-Maʿadī', 'Maʿadi', ""al-Ma'adi"", 'Maadi', ""Ma'adi""]"
+718296310,['المعادي'],['arz'],"[""al-Ma'adi"", 'Maʿadi', 'al-Maʿadī', 'Maadi', 'al-Maadi', ""Ma'adi""]"
 934591702,['Basilica di Santa Maria in Cosmedin'],['it'],['Basilica di Santa Maria in Cosmedin']
 934591703,['San Giorgio in Velabro'],['it'],['San Giorgio in Velabro']
 462152,['unknown'],['unknown'],['Cena']
 462156,['unknown'],['unknown'],['Chalae']
 462157,['unknown'],['unknown'],['Charybdis']
 462158,['unknown'],['la'],['Chrysas']
-462159,['unknown'],['unknown'],"['T.', 'Chrysas']"
+462159,['unknown'],['unknown'],"['Chrysas', 'T.']"
 462160,['unknown'],['unknown'],['Chydas']
 462165,['unknown'],['unknown'],['Comiciana']
 462167,['unknown'],['unknown'],['Cossyra']
@@ -10610,10 +10610,10 @@ pid,nameAttested,nameLanguage,nameTransliterated
 478972357,['Голата нива'],['bg'],['Golata Niva']
 845754667,['תֵל כַבְרִי'],['he'],"['Tel Kabri', 'Tell Kabri']"
 239936126,['καδμεία'],['grc'],['Cadmeia']
-944396035,['unknown'],['tr'],"['Bey Dağları', 'Bey Daghlari', 'Bey Daglari']"
+944396035,['unknown'],['tr'],"['Bey Daglari', 'Bey Daghlari', 'Bey Dağları']"
 300354625,['unknown'],['akk'],['Ura']
 300354626,['unknown'],['arb'],['Nawā']
-300354629,['unknown'],['arb'],"['Afak', 'ʿAfak']"
+300354629,['unknown'],['arb'],"['ʿAfak', 'Afak']"
 311205627,['Nizzetti'],['it'],['Nizzetti']
 333222070,['Φαλάριον'],['grc'],['Phalarium']
 845040004,['Kom el Dikka'],['en'],['Kom el Dikka']
@@ -11005,11 +11005,11 @@ pid,nameAttested,nameLanguage,nameTransliterated
 265866,['unknown'],['unknown'],['Charidemos Pr.']
 265874,['unknown'],['la'],['Colubraria']
 324631564,['Khufu ship'],['en'],['Khufu ship']
-260256455,"['Stenhouse', ""Arthur's O'on""]",['en'],"['Stenhouse', ""Arthur's O'on""]"
+260256455,"[""Arthur's O'on"", 'Stenhouse']",['en'],"[""Arthur's O'on"", 'Stenhouse']"
 897733154,['Listercombe Bottom Roman villa'],['en'],['Listercombe Bottom Roman villa']
 854370382,['Ashtead Roman villa'],['en'],['Ashtead Roman villa']
-720628458,['תל חסי'],['he'],"['Tel Hesy', 'Tell el-Hesi', 'Tell el Hasī', 'Tel Hesi', 'Tel el H̱asi', 'Tell Hasī', 'Tell el-Hesy', 'Tel H̱asi']"
-720628459,['Αηδόνια'],['el'],"['Aïdhónia', 'Aidonia']"
+720628458,['תל חסי'],['he'],"['Tell el-Hesy', 'Tell el Hasī', 'Tel H̱asi', 'Tell Hasī', 'Tel el H̱asi', 'Tell el-Hesi', 'Tel Hesi', 'Tel Hesy']"
+720628459,['Αηδόνια'],['el'],"['Aidonia', 'Aïdhónia']"
 720628460,['עין שדוד'],['he'],"['En Shadud', ""'Ein-Shadud""]"
 379202545,"['Topra Kaleh', 'Toprakkale']",['tr'],['Toprakkale']
 889260374,['Трахтемирівське городище'],['uk'],['Trakhtemyrivsʹke horodyshche']
@@ -11019,7 +11019,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 280129737,['unknown'],['tr'],['Yüceören nekropolü']
 739470591,['unknown'],['en'],['Throne Room']
 573484325,['Castra Drobeta'],['en'],['Castra Drobeta']
-484415170,['unknown'],['tr'],"['İnandıktepe', 'İnandık Tepe']"
+484415170,['unknown'],['tr'],"['İnandık Tepe', 'İnandıktepe']"
 286718069,['Temple of Hibis'],['en'],['Temple of Hibis']
 26347394,['unknown'],['la'],"['Silua Arsia', 'Silva Arsia']"
 991372,['unknown'],['unknown'],['Achaia']
@@ -11068,7 +11068,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 507476,['unknown'],['unknown'],['Trauos']
 50748,['unknown'],['unknown'],['Skopeloura']
 507481,['unknown'],['unknown'],['Zeirenia']
-507482,['unknown'],['unknown'],"['T.', 'Zeus Diasion']"
+507482,['unknown'],['unknown'],"['Zeus Diasion', 'T.']"
 50749,['unknown'],['unknown'],['Soanas']
 50750,['unknown'],['unknown'],['Soanoi']
 50751,['unknown'],['unknown'],['Solomatis']
@@ -11323,7 +11323,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 521036,['unknown'],['unknown'],['Himeros']
 521037,['unknown'],['unknown'],['Himeros']
 521039,['unknown'],['unknown'],['Hyris Pr.']
-521046,['unknown'],['unknown'],"['T.', 'Iuppiter Urius']"
+521046,['unknown'],['unknown'],"['Iuppiter Urius', 'T.']"
 521050,['unknown'],['unknown'],['Kalamos']
 521051,['unknown'],['unknown'],['Kalos Agros']
 521052,['unknown'],['unknown'],['Kampos']
@@ -11333,7 +11333,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 521059,['unknown'],['unknown'],['Kleides kai Kleithra tou Pontou']
 521060,['unknown'],['unknown'],['Kolone Pr.']
 521061,['unknown'],['unknown'],['Kosilaos']
-521062,['unknown'],['unknown'],"['Mon.', 'Kosmas kai Damianos']"
+521062,['unknown'],['unknown'],"['Kosmas kai Damianos', 'Mon.']"
 521064,['unknown'],['unknown'],['Kyaneai']
 521066,['unknown'],['unknown'],['Kydaros']
 521068,['unknown'],['unknown'],['Kyparodes']
@@ -11422,7 +11422,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 530797,['unknown'],['unknown'],['Amphilochia']
 530799,['unknown'],['unknown'],['Anapos']
 530804,['unknown'],['unknown'],['Aphas']
-530806,['unknown'],['unknown'],"['T.', 'Apollo Leukatas']"
+530806,['unknown'],['unknown'],"['Apollo Leukatas', 'T.']"
 530808,['Ἀργεία'],['grc'],['Argeia']
 530809,['unknown'],['unknown'],['Argos Amphilochikon']
 530810,['unknown'],['unknown'],['Arktanes']
@@ -11530,7 +11530,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 531125,['unknown'],['unknown'],['Torone']
 531127,['unknown'],['unknown'],['Toryne']
 531134,['unknown'],['unknown'],['Tymphe M.']
-531158,['unknown'],['unknown'],"['T.', 'Zeus Ainesios']"
+531158,['unknown'],['unknown'],"['Zeus Ainesios', 'T.']"
 536052,['unknown'],['unknown'],['Akra']
 536053,['unknown'],['unknown'],['Aktion']
 536054,['unknown'],['unknown'],['Algos']
@@ -11553,7 +11553,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 536078,['unknown'],['unknown'],['Hag. Sabinou']
 536079,['unknown'],['unknown'],['Hedones']
 536080,['unknown'],['unknown'],['Helega']
-536081,['unknown'],['unknown'],"['T.', 'Heraion']"
+536081,['unknown'],['unknown'],"['Heraion', 'T.']"
 536082,['‛Εστίαια'],['grc'],['Hestiaia']
 536083,['unknown'],['unknown'],['Homonoia']
 536085,['unknown'],['unknown'],['Karmina']
@@ -11600,7 +11600,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 536133,['unknown'],['unknown'],['Sollion']
 440618978,['Ninguaria'],['la'],['Ninguaria']
 676201591,['Monte Falterona'],['it'],['Monte Falterona']
-391537222,['Гонур Депе'],['ru'],"['Gonor Tepe', 'Gonur Tepe', 'Gonur Depe', 'Gonor Depe', 'Gunar Depe', 'Gunar Tepe']"
+391537222,['Гонур Депе'],['ru'],"['Gonur Tepe', 'Gonor Depe', 'Gunar Tepe', 'Gonor Tepe', 'Gonur Depe', 'Gunar Depe']"
 249509021,['unknown'],['tr'],['Sultantepe']
 189103682,['unknown'],['he'],"[""HaMa'apil""]"
 413309734,['unknown'],['fa'],['Pol-e Dokhtar']
@@ -11616,7 +11616,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 464482219,['Temple of Apollo at Delphi'],['en'],['Temple of Apollo at Delphi']
 464482220,['Sanctuary of Apollo at Cyrene'],['en'],['Sanctuary of Apollo at Cyrene']
 464482221,['unknown'],['en'],['L-Shaped Palace at Gla']
-195443086,['ابوصير'],['ar'],"['Abu Sir', 'Abusir']"
+195443086,['ابوصير'],['ar'],"['Abusir', 'Abu Sir']"
 207490748,['Monte Solaro'],['it'],['Monte Solaro']
 481740,['unknown'],['unknown'],['Argyas']
 481741,['unknown'],['unknown'],['Argyros']
@@ -11810,14 +11810,14 @@ pid,nameAttested,nameLanguage,nameTransliterated
 267084998,['Ῥίον'],['grc'],['Rhion']
 86666894,['Anfiteatro romano'],['it'],['Anfiteatro romano']
 431684923,['Arco di Trevi'],['it'],['Arco di Trevi']
-108542250,['נחל חמר'],['he'],"['Nahal Hemar', 'Naẖal H̲emar', 'Naḥal Ḥemar']"
+108542250,['נחל חמר'],['he'],"['Naḥal Ḥemar', 'Naẖal H̲emar', 'Nahal Hemar']"
 362185575,['unknown'],['it'],['Varignano Vecchio']
 154462177,['unknown'],['en'],['Buried Pyramid']
 945930913,['Pyramid of Khendjer'],['en'],['Pyramid of Khendjer']
 945930914,['مصطبة الفرعون'],['arz'],['Mastabat al-Fir’aun']
 945930915,['unknown'],['en'],['Basilica of Pompeii']
 879396033,['unknown'],['sux'],['Ešahulezenzagmukam']
-575632427,['Ясиновский III Курган'],['ru'],"['Yasinovskiy III kurgan', 'I͡Asinovskiĭ III kurgan', 'Iasinovskii III kurgan']"
+575632427,['Ясиновский III Курган'],['ru'],"['Yasinovskiy III kurgan', 'Iasinovskii III kurgan', 'I͡Asinovskiĭ III kurgan']"
 596384814,['Vignale'],['it'],['Vignale']
 586635001,['Նարեկավանք'],['hy'],['Narekavank']
 586635002,['unknown'],['en'],['Mugharet Abu Halimeh']
@@ -11827,19 +11827,19 @@ pid,nameAttested,nameLanguage,nameTransliterated
 80227978,['Βλακεία'],['grc'],['Blakeia']
 196789404,['Ἐγνατία ὁδός'],['grc'],['Egnatia Hodos']
 327730568,['Էջմիածնի Մայր Տաճար'],['hy'],['Ejmiatsni Mayr Tacar']
-21234998,['العساسيف'],['arz'],"[""Al-'Assāsīf"", 'Assasif', 'Asasif', 'El-Assasif', 'Al-Assaif', 'Al-Asasif', 'El-Asasif']"
+21234998,['العساسيف'],['arz'],"['El-Assasif', 'Assasif', 'Al-Assaif', 'Al-Asasif', ""Al-'Assāsīf"", 'Asasif', 'El-Asasif']"
 402082165,['unknown'],['it'],['Ninfeo di Alessandro']
 537979353,['Anfiteatro Romano Milano'],['it'],['Anfiteatro Romano Milano']
 576206943,['The House of the Masks'],['en'],['The House of the Masks']
 408217405,['Telesterion'],['en'],['Telesterion']
-677771033,['Скорняковское городище'],['ru'],"['Skornjakovskoe gorodišče', 'Skorni︠a︡kovskoe gorodishche', 'Skornyakovskoe gorodishche']"
+677771033,['Скорняковское городище'],['ru'],"['Skorni︠a︡kovskoe gorodishche', 'Skornyakovskoe gorodishche', 'Skornjakovskoe gorodišče']"
 977603752,['אזור'],['he'],['Azor']
 977603753,['unknown'],['en'],['Tell Baqqaq 2']
 557240924,"[""Area Archeologica e Nuraghe S'Ortali 'e Su Monti""]",['it'],"[""Area Archeologica e Nuraghe S'Ortali 'e Su Monti""]"
 35475912,['Ar.za.ú.i.ia'],['hit'],['Arzawa']
 659022266,['Monte Rocche'],['it'],['Monte Rocche']
 700097745,['unknown'],['fr'],['Palais Gallien']
-931117398,"['Badajoz', 'Badajioz', 'Badaioz', 'Badalloç', 'Badalloz']",['es'],"['Badajoz', 'Badajioz', 'Badaioz', 'Badalloç', 'Badalloz']"
+931117398,"['Badajoz', 'Badaioz', 'Badajioz', 'Badalloç', 'Badalloz']",['es'],"['Badajoz', 'Badaioz', 'Badajioz', 'Badalloç', 'Badalloz']"
 540685097,['Anfiteatro Romano Catania'],['it'],['Anfiteatro Romano Catania']
 985706528,['unknown'],['ar'],['Tabo']
 662928353,['Coccium'],['la'],['Coccium']
@@ -11848,7 +11848,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 16844227,['Sirkeli Höyük'],['tr'],['Sirkeli Höyük']
 687942,['unknown'],['unknown'],"['see Khirbet', 'Kh.']"
 697680,['unknown'],['unknown'],"['see Khirbet', 'Kh.']"
-156660711,['unknown'],['akk'],"['Aşağı Pınar', 'Aşağı Pınar Höyüğü', 'Aşağıpınar']"
+156660711,['unknown'],['akk'],"['Aşağı Pınar', 'Aşağıpınar', 'Aşağı Pınar Höyüğü']"
 599695861,['Pyramid of Menkaure'],['en'],['Pyramid of Menkaure']
 512410974,['unknown'],['it'],['Tempio della Tosse']
 76301894,['Acropoli minore'],['it'],['Acropoli minore']
@@ -11866,7 +11866,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 157928,['unknown'],['unknown'],['Stablo']
 157929,['Στοιχάδες'],['grc'],['Stoechades']
 157930,['unknown'],['unknown'],['Suelteri']
-157931,"['Suetrii', 'Suetri', 'Svetri']",['la'],['Suetrii']
+157931,"['Svetri', 'Suetrii', 'Suetri']",['la'],['Suetrii']
 157936,['unknown'],['unknown'],['Telo Martius']
 157937,['unknown'],['unknown'],['Theopolis']
 157939,['unknown'],['unknown'],['Tritolii']
@@ -11883,7 +11883,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 162333,['unknown'],['unknown'],['Hypaea']
 162337,['unknown'],['unknown'],['Merula']
 162338,['unknown'],['unknown'],['Mese']
-162340,"['Nemaloni', 'Nemalonii']",['la'],['Nemalonii']
+162340,"['Nemalonii', 'Nemaloni']",['la'],['Nemalonii']
 162341,['unknown'],['unknown'],['Nemeturii']
 162343,['unknown'],['la'],['Oratelli']
 162344,['unknown'],['unknown'],['Ouelaunioi']
@@ -11931,7 +11931,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 167686,['unknown'],['unknown'],['Boxs(...)']
 167690,['unknown'],['unknown'],['Brigantio']
 167691,['unknown'],['unknown'],['Brigantio']
-167692,"['Brigianii', 'Brigiani']",['la'],['Brigianii']
+167692,"['Brigiani', 'Brigianii']",['la'],['Brigianii']
 167693,['unknown'],['unknown'],['Brioratis']
 167694,['unknown'],['unknown'],['Brivas']
 167697,['unknown'],['unknown'],['Cambonum']
@@ -12318,8 +12318,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 501503,['unknown'],['unknown'],['Madytos']
 501507,['unknown'],['unknown'],['Maroneia']
 50151,['unknown'],['unknown'],['Nagagoura']
-501510,['unknown'],['unknown'],"['T.', 'Megaloi Theoi']"
-501511,['unknown'],['unknown'],"['T.', 'Megaloi Theoi']"
+501510,['unknown'],['unknown'],"['Megaloi Theoi', 'T.']"
+501511,['unknown'],['unknown'],"['Megaloi Theoi', 'T.']"
 501514,['unknown'],['unknown'],['Melas']
 501515,['unknown'],['unknown'],['Mende']
 501516,['unknown'],['unknown'],['Mesambria']
@@ -12922,12 +12922,12 @@ pid,nameAttested,nameLanguage,nameTransliterated
 249938,['unknown'],['unknown'],['Labastide-du-Temple']
 249939,['unknown'],['unknown'],['Castelferrus']
 249940,['unknown'],['unknown'],['Cordes-Tolosannes']
-249951,['unknown'],['unknown'],"['La Tasque', 'Cadeilhan']"
+249951,['unknown'],['unknown'],"['Cadeilhan', 'La Tasque']"
 249953,['unknown'],['unknown'],['Puységur']
 249960,['unknown'],['unknown'],['Pech de Mau']
 249971,['unknown'],['unknown'],['Lézat-sur-Lèze']
 249972,['unknown'],['unknown'],['Marquefave']
-249985,['unknown'],['unknown'],"['Cassan', 'Ordan-Larroque']"
+249985,['unknown'],['unknown'],"['Ordan-Larroque', 'Cassan']"
 249991,['unknown'],['unknown'],['Pujo']
 249993,['unknown'],['unknown'],['Izaux']
 249994,['unknown'],['unknown'],['Saint-Loup-en-Comminges']
@@ -13018,8 +13018,8 @@ pid,nameAttested,nameLanguage,nameTransliterated
 177564,['unknown'],['unknown'],['Lingones']
 177572,['Mandubii'],['la'],['Mandubii']
 177573,['unknown'],['unknown'],['Mantoche']
-177589,"['Nantvates', 'Nantuates']",['la'],['Nantuates']
-177594,['unknown'],['fr'],"['Les Bolards', 'Nuits-Saint-Georges']"
+177589,"['Nantuates', 'Nantvates']",['la'],['Nantuates']
+177594,['unknown'],['fr'],"['Nuits-Saint-Georges', 'Les Bolards']"
 177599,['unknown'],['unknown'],['Oskela']
 177602,['unknown'],['unknown'],['Penne Locos']
 177605,['unknown'],['unknown'],['Pocrinium']
@@ -13803,7 +13803,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 874322,['unknown'],['unknown'],['Ani']
 874327,['unknown'],['unknown'],['Anzita']
 874328,['unknown'],['unknown'],['Anzitene']
-874330,['unknown'],['unknown'],"['Mon.', 'Apostoli']"
+874330,['unknown'],['unknown'],"['Apostoli', 'Mon.']"
 874334,['unknown'],['unknown'],['Arabia']
 874336,['unknown'],['unknown'],['Araxenon Pedion']
 874343,['unknown'],['unknown'],['Archene']
@@ -13837,7 +13837,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 874429,['unknown'],['unknown'],['Coissa']
 874431,['Colchion'],['la'],['Colchion']
 874432,['unknown'],['unknown'],['Colchis']
-874439,['unknown'],['unknown'],"['Mon.', 'Cyriacus']"
+874439,['unknown'],['unknown'],"['Cyriacus', 'Mon.']"
 874441,['unknown'],['unknown'],['Dabanas']
 874442,['unknown'],['unknown'],['Dadima']
 874445,['unknown'],['unknown'],['Daranalis']
@@ -13861,7 +13861,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 874522,['unknown'],['unknown'],['Ingilene']
 874524,['unknown'],['unknown'],"['Iohannes Urtius', 'Mon.']"
 874526,['unknown'],['unknown'],['Ioustiniane']
-874536,['unknown'],['unknown'],"['Mon.', 'Kamul']"
+874536,['unknown'],['unknown'],"['Kamul', 'Mon.']"
 874541,['unknown'],['unknown'],['Kardouchoi']
 874542,['unknown'],['unknown'],['Karenitis']
 874549,['unknown'],['unknown'],['Khakh']
@@ -13922,7 +13922,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 110149525,['Tarxien Prehistoric Temples'],['en'],['Tarxien Prehistoric Temples']
 969121823,['Ἄρειος Πάγος'],['grc'],['Areos Pagos']
 45016675,['חורבת קייאפה'],['he'],['Khirbet Qeiyafa']
-45016676,['بيضا'],['arb'],"['Jabal al-Bayda', 'Djebelet el Bēḍā', 'Bayḍā', 'Jabala al-Bayda', 'Jabal al-Baida', 'Jabala al-Baida']"
+45016676,['بيضا'],['arb'],"['Jabal al-Baida', 'Jabala al-Bayda', 'Djebelet el Bēḍā', 'Jabala al-Baida', 'Bayḍā', 'Jabal al-Bayda']"
 45016678,['unknown'],['it'],['Chiesa di Santa Prisca']
 766624229,['Fontaines Salées'],['fr'],['Fontaines Salées']
 390205932,['unknown'],['la'],['Via Ostiensis']
@@ -13938,7 +13938,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 702604147,['Oufentina'],['la'],['Oufentina']
 964333742,['unknown'],['la'],['Publilia']
 866038914,['Valley Temple of Khafre'],['en'],['Valley Temple of Khafre']
-130631535,['unknown'],['en'],"['Tell Hassuna', 'Hassuna']"
+130631535,['unknown'],['en'],"['Hassuna', 'Tell Hassuna']"
 612591680,['unknown'],['sux'],['Enirgalana']
 612591681,['unknown'],['sux'],['Ekišibgalekura']
 612591682,['unknown'],['sux'],['Eušumgalana']
@@ -14179,7 +14179,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 922680,['unknown'],['unknown'],['Mesambrie']
 922685,['unknown'],['en'],['Naqsh-e Rustam']
 922701,['unknown'],['unknown'],['Araxes']
-922704,['قلعه دختر'],['fa'],"['Qalʿa-ye Doḵtar', 'Ghale Dokhtar', 'Qaleh Dukhtar', ""Qal'eh Dokhtar""]"
+922704,['قلعه دختر'],['fa'],"[""Qal'eh Dokhtar"", 'Qaleh Dukhtar', 'Ghale Dokhtar', 'Qalʿa-ye Doḵtar']"
 922729,['unknown'],['unknown'],['Anzan']
 930162,['unknown'],['unknown'],['Achaimenidai']
 930163,['unknown'],['unknown'],['Ankarrakan']
@@ -14376,7 +14376,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 98909,['unknown'],['unknown'],['Albis']
 98910,['unknown'],['unknown'],['Amisia']
 98911,['unknown'],['unknown'],['Ampsivarii']
-98912,"['Angli', 'Anglii']",['la'],['Angli']
+98912,"['Anglii', 'Angli']",['la'],['Angli']
 98913,['unknown'],['unknown'],['Angrivarii']
 98919,['unknown'],['la'],['Aviones']
 98929,['unknown'],['unknown'],['Bructeri']
@@ -14499,15 +14499,15 @@ pid,nameAttested,nameLanguage,nameTransliterated
 99663,['unknown'],['unknown'],['Drusiana Fossa']
 27164982,['Porta Capena'],['la'],['Porta Capena']
 619096567,['unknown'],['de'],['Nildelta']
-619096572,['unknown'],['arb'],"['Tall Nimrūd', 'Tall Nimrud', 'Tell Nimrud']"
-619096573,['unknown'],['heb'],"['Nachal Jardinon', 'Naḥal Yardinon', 'Nahal Yardinon']"
+619096572,['unknown'],['arb'],"['Tell Nimrud', 'Tall Nimrūd', 'Tall Nimrud']"
+619096573,['unknown'],['heb'],"['Naḥal Yardinon', 'Nahal Yardinon', 'Nachal Jardinon']"
 211425282,['unknown'],['tr'],['Suadiye']
 916165989,['unknown'],['grc'],['Astakos']
 510671522,['unknown'],['ka'],['Sumere']
 510671524,['unknown'],['tr'],"['Adapazarı Plain', 'Adapazari Ovasi', 'Adapazarı Ovası']"
 890432542,['unknown'],['de'],"['Pseudo-Athribitic Branch', 'Pseudo-Athribitischer Arm']"
-890432544,['unknown'],['tr'],"['Bolkar Daglari', 'Bolkar Daghlari', 'Bolkar Dağları']"
-890432545,['unknown'],['tr'],"['Bolkar Daglari', 'Bolkar Daghlari', 'Bolkar Dağları']"
+890432544,['unknown'],['tr'],"['Bolkar Daghlari', 'Bolkar Dağları', 'Bolkar Daglari']"
+890432545,['unknown'],['tr'],"['Bolkar Daghlari', 'Bolkar Dağları', 'Bolkar Daglari']"
 890432546,['unknown'],['tr'],"['Munzur Daghlari', 'Munzur Daglari', 'Munzur Dağları']"
 955500071,['Arênes de Lutèce'],['fr'],['Arenes de Lutece']
 60181827,['Հաղարծնի վանք'],['hy'],['Haghartsni vank’']
@@ -14516,15 +14516,15 @@ pid,nameAttested,nameLanguage,nameTransliterated
 662199,['unknown'],['unknown'],['Praetorio']
 662201,['unknown'],['unknown'],['Pterygion M.']
 662202,['unknown'],['unknown'],"['Publius', 'Mon.']"
-662204,['unknown'],['unknown'],"['Mon.', 'Qubbe']"
-662205,['unknown'],['unknown'],"['Mon.', 'Qube']"
+662204,['unknown'],['unknown'],"['Qubbe', 'Mon.']"
+662205,['unknown'],['unknown'],"['Qube', 'Mon.']"
 662207,['unknown'],['unknown'],['Rhadamnos']
 662209,['unknown'],['unknown'],['Sambon Chorion']
 662211,['unknown'],['unknown'],['Sepyra']
 662213,['unknown'],['unknown'],['Sis']
 662214,['unknown'],['unknown'],['Socha']
 662217,['unknown'],['unknown'],['Thalama']
-662218,['unknown'],['unknown'],"['Mon.', 'Thalassi']"
+662218,['unknown'],['unknown'],"['Thalassi', 'Mon.']"
 662220,['unknown'],['unknown'],['Therimachon']
 662221,['unknown'],['unknown'],['Thilaticomum']
 662222,['unknown'],['unknown'],['Tiberinon Chorion']
@@ -14611,7 +14611,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 668387,['unknown'],['unknown'],['Theleda']
 668388,['unknown'],['unknown'],['Theodorias']
 668392,['unknown'],['grc'],['Trieres']
-668402,['unknown'],['unknown'],"['Mon.', 'Zacchaeus']"
+668402,['unknown'],['unknown'],"['Zacchaeus', 'Mon.']"
 668404,['unknown'],['unknown'],['Zophea']
 674217,['unknown'],['unknown'],['Aegyption Teichos']
 674218,['unknown'],['unknown'],['Agrippias']
@@ -14671,7 +14671,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 678020,['unknown'],['unknown'],['Aouidenoi']
 678021,['unknown'],['unknown'],['Apheka']
 678022,['unknown'],['unknown'],['Aphetatha']
-678024,['unknown'],['unknown'],"['T.', 'Apollo']"
+678024,['unknown'],['unknown'],"['Apollo', 'T.']"
 678029,['unknown'],['unknown'],['Arbela']
 678030,['unknown'],['unknown'],['Aremtha']
 678031,['unknown'],['unknown'],['Arra']
@@ -15050,7 +15050,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 138523,['unknown'],['unknown'],['Pretorio']
 138524,['unknown'],['unknown'],['Prisciago']
 138525,['unknown'],['unknown'],['Prisciniacum']
-138530,['unknown'],['unknown'],"['Mon.', 'S. Quiricus']"
+138530,['unknown'],['unknown'],"['S. Quiricus', 'Mon.']"
 138532,['unknown'],['unknown'],['Randanum']
 138536,['unknown'],['unknown'],['Reontio']
 138537,['unknown'],['unknown'],['Ricomagus']
@@ -15253,10 +15253,10 @@ pid,nameAttested,nameLanguage,nameTransliterated
 256040,['unknown'],['unknown'],['Caetobriga']
 256054,['unknown'],['unknown'],['Cappa']
 322942899,['Terme di Caracalla'],['it'],['Terme di Caracalla']
-285586942,['Клин-Яр'],['ru'],"['Klin-I͡Ar', 'Klin-Yar']"
+285586942,['Клин-Яр'],['ru'],"['Klin-Yar', 'Klin-I͡Ar']"
 150998961,['unknown'],['it'],['Anfiteatro romano di Suasa']
 112509596,['بني حسن\u200e'],['ar'],"['Bani Hasan', 'Beni Hasan', 'Beni Hassan']"
-149576487,['العمارنة'],['ar'],"['Amarna', 'Tell el-Amarna', 'el-Amarna']"
+149576487,['العمارنة'],['ar'],"['Tell el-Amarna', 'el-Amarna', 'Amarna']"
 131418574,['Διώρυγα Κορίνθου'],['el'],['Dioriga Korinthou']
 661894078,['Kato Phournos Tomb'],['en'],['Kato Phournos Tomb']
 117689032,['Library of Pergamum'],['en'],['Library of Pergamum']
@@ -15267,14 +15267,14 @@ pid,nameAttested,nameLanguage,nameTransliterated
 558659669,['Hephaisteion'],['en'],['Hephaisteion']
 12766857,['Teatro Romano Benevento'],['it'],['Teatro Romano Benevento']
 500223767,['unknown'],['hbo'],"['Kabul', 'Kȧbul']"
-83213250,['תל ערני'],['he'],"['Tel ‘Areini', 'Tell Erani', 'Tel ‘Erani', 'Tel Areyny', 'Tel Erani']"
+83213250,['תל ערני'],['he'],"['Tel Areyny', 'Tell Erani', 'Tel ‘Erani', 'Tel Erani', 'Tel ‘Areini']"
 660563243,['Ağrı Dağı'],['tr'],['Agri Dagi']
-377547413,['شهر سوخته'],['fa'],"['Shahr-i Shōkhta', 'Shahr-e Sukhteh']"
-308048142,['תל קסילה'],['he'],"['Tell Qasile', 'Tell Qasila', 'Tell Ḳasileh']"
+377547413,['شهر سوخته'],['fa'],"['Shahr-e Sukhteh', 'Shahr-i Shōkhta']"
+308048142,['תל קסילה'],['he'],"['Tell Qasila', 'Tell Qasile', 'Tell Ḳasileh']"
 919152219,['Downend'],['en'],['Downend Roman villa']
 407613499,['Caerffili'],['welsh'],['Caerffili']
 393959243,['Porta San Lorenzo'],['it'],['Porta San Lorenzo']
-559217802,['Γιούχτας'],['el'],"['Ioukhtas', 'Giouchtas']"
+559217802,['Γιούχτας'],['el'],"['Giouchtas', 'Ioukhtas']"
 528477900,['unknown'],['ar'],['Al-Sabaa']
 902113570,['Mohenjo-daro'],['en'],['Mohenjo-daro']
 653377581,['unknown'],['akk'],['Humē']
@@ -15288,7 +15288,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 935032928,['Hiera Oikia'],['en'],['Hiera Oikia']
 513711610,['Temple of Athena Pronaia'],['en'],['Temple of Athena Pronaia']
 623550296,['Guillena'],['es'],['Guillena']
-264512380,['تل بقرص'],['ar'],"['Tell Buqruş', 'Tell Boqras', 'Tell Bouqras', 'Tell Boqruss']"
+264512380,['تل بقرص'],['ar'],"['Tell Buqruş', 'Tell Boqruss', 'Tell Bouqras', 'Tell Boqras']"
 524143100,['Ἀμνισός'],['grc'],['Amnisós']
 431558511,['unknown'],['it'],['Villa di Orazio']
 747563988,['Érôme'],['fr'],['Erome']
@@ -15479,12 +15479,12 @@ pid,nameAttested,nameLanguage,nameTransliterated
 351685829,['Πλαζειρα'],['grc'],['Plazeira']
 652389977,['Καρδάκων κώμηι̣'],['grc'],['Kardakōn kōmē']
 652243264,['unknown'],['de'],"['Obere Sakarya-Senke', 'Upper Sakarya Valley']"
-641191182,['unknown'],['de'],"['Lake Idku', 'Idku-See', 'Lake Edku']"
-641191185,['unknown'],['arb'],"['Taizz', 'Taʿizz', ""Ta'izz"", 'Taez', 'Taiz']"
-360094478,['unknown'],['de'],"['Middle Taurus', 'Central Taurus', 'Mitteltaurus']"
+641191182,['unknown'],['de'],"['Idku-See', 'Lake Edku', 'Lake Idku']"
+641191185,['unknown'],['arb'],"['Taez', 'Taʿizz', 'Taiz', ""Ta'izz"", 'Taizz']"
+360094478,['unknown'],['de'],"['Mitteltaurus', 'Middle Taurus', 'Central Taurus']"
 769548550,['unknown'],['unknown'],['Gücük']
 769548552,['unknown'],['tr'],"['Mittleres Sakarya-Tal\t\tt', 'Central Sakarya Valley']"
-563058569,['Люботинское городище'],['ru'],"['Lyubotinskoe Gorodishche', 'Li͡ubotinskoe gorodishche', 'Liubotin Gorodishche', 'Li͡ubotin gorodishche', 'Liubotinskoe Gorodishche', 'Lyubotin Gorodishche']"
+563058569,['Люботинское городище'],['ru'],"['Li͡ubotin gorodishche', 'Liubotinskoe Gorodishche', 'Li͡ubotinskoe gorodishche', 'Lyubotinskoe Gorodishche', 'Lyubotin Gorodishche', 'Liubotin Gorodishche']"
 91127594,['unknown'],['akk'],['Ribaniš']
 367567447,['unknown'],['akk'],['Ukalāya']
 266535322,['unknown'],['akk'],['Azlāyyānu']
@@ -15494,7 +15494,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 700326647,['Ипатово-3 курган'],['ru'],['Ipatovo-3 kurgan']
 218046074,['unknown'],['en'],['Gobero']
 767486703,['unknown'],['ar'],['Zāwiyah']
-99643110,['Старый Сад'],['ru'],"['Staryĭ Sad', 'Stary Sad']"
+99643110,['Старый Сад'],['ru'],"['Stary Sad', 'Staryĭ Sad']"
 1001909,['unknown'],['unknown'],['Lydia']
 864488325,['Θιλευδον'],['grc'],['Thileudos']
 992829,['unknown'],['unknown'],['Alpes Maritimae']
@@ -15502,7 +15502,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 321318358,['Medinet Habu'],['en'],['Medinet Habu']
 945906723,['unknown'],['ar'],['Dawali']
 945906724,['unknown'],['ar'],['Judeideh']
-640269638,"['el Algarve', 'el Algarue', 'el Algarbe']",['es'],"['el Algarve', 'el Algarue', 'el Algarbe']"
+640269638,"['el Algarue', 'el Algarve', 'el Algarbe']",['es'],"['el Algarue', 'el Algarve', 'el Algarbe']"
 479868441,['Aracena'],['es'],['Aracena']
 944606650,['unknown'],['en'],['Tepe Gawra']
 313020255,['unknown'],['ar'],['Tel Siyānu']
@@ -15553,12 +15553,12 @@ pid,nameAttested,nameLanguage,nameTransliterated
 140478,['unknown'],['unknown'],['Chavagné']
 140481,['unknown'],['unknown'],"['Pépiron', 'Saint-Just-Luzac']"
 140499,['unknown'],['unknown'],['Petit-Bersac']
-140505,['unknown'],['unknown'],"['Chez Michaud', 'Suaux']"
-140506,['unknown'],['unknown'],"['Saint-Priest-sous-Aixe', 'Chez-Roger']"
+140505,['unknown'],['unknown'],"['Suaux', 'Chez Michaud']"
+140506,['unknown'],['unknown'],"['Chez-Roger', 'Saint-Priest-sous-Aixe']"
 140510,['unknown'],['unknown'],['Pierre-Buffière']
 140530,['unknown'],['unknown'],['Allas-les-Mines']
-140531,['unknown'],['unknown'],"['Granéjouls', 'Lhospitalet']"
-140532,['unknown'],['unknown'],"['Montlauzun', 'Mayjounelle']"
+140531,['unknown'],['unknown'],"['Lhospitalet', 'Granéjouls']"
+140532,['unknown'],['unknown'],"['Mayjounelle', 'Montlauzun']"
 582254847,['sacellum Streniae'],['la'],['sacellum Streniae']
 982853456,['unknown'],['pt'],['Arco Romano de Dona Isabel']
 277534797,['Ναός Αγροτέρας Αρτέμιδος'],['el'],"['Naós Agrotéras Artémidos', 'Naos Agroteras Artemidos']"
@@ -15569,7 +15569,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 520255117,['Porta San Paolo'],['it'],['Porta San Paolo']
 880325202,"[""Sant'Agata di Militello""]",['it'],"[""Sant'Agata di Militello""]"
 787161721,['unknown'],['it'],['Tino di Moscona']
-413537084,['Тенгинская'],['ru'],"['Tenginskaja', 'Tenginskaia', 'Tenginskaya']"
+413537084,['Тенгинская'],['ru'],"['Tenginskaya', 'Tenginskaia', 'Tenginskaja']"
 21349240,['Καλλιπάτραι'],['grc'],['Kallipatrai']
 816414429,['Castronuovo di Sicilia'],['it'],"['Castronovo di Sicilia', 'Castronuovo di Sicilia']"
 39424,['unknown'],['unknown'],['Saraka']
@@ -15983,7 +15983,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 413196,['unknown'],['la'],['Matilica']
 413197,['unknown'],['unknown'],['Matrinum']
 413198,['unknown'],['unknown'],['Matrinus']
-413200,"['Meuania', 'Mevania']",['la'],['Mevania']
+413200,"['Mevania', 'Meuania']",['la'],['Mevania']
 413201,['unknown'],['unknown'],['Mevaniola']
 413202,['Minio'],['la'],['Minio']
 413203,['unknown'],['unknown'],['Misco']
@@ -16060,11 +16060,11 @@ pid,nameAttested,nameLanguage,nameTransliterated
 413364,['unknown'],['unknown'],['Urbs Salvia']
 413365,['unknown'],['unknown'],['Urvinum Hortense']
 413366,['unknown'],['unknown'],['Urvinum Mataurense']
-413370,"['Vadimonis lacus', 'Uadimonis lacus']",['la'],['Vadimonis L.']
+413370,"['Uadimonis lacus', 'Vadimonis lacus']",['la'],['Vadimonis L.']
 413371,['lacus Velinus'],['la'],['Velini L.']
 413372,['unknown'],['unknown'],['Velini L.']
 413375,['unknown'],['la'],['Vespasiae']
-413376,"['Vestini', 'Uestini']",['la'],['Vestini']
+413376,"['Uestini', 'Vestini']",['la'],['Vestini']
 413377,"['Vettona', 'Uettona']",['la'],['Vettona']
 413380,['unknown'],['unknown'],['Vicus Martis']
 413381,['unknown'],['unknown'],['Vicus Matrini']
@@ -16177,7 +16177,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 416884,['unknown'],['unknown'],['Via Picena']
 416885,['unknown'],['unknown'],['Via Salaria Gallica']
 416886,['unknown'],['unknown'],['Vidicini']
-416887,"['Vindenates', 'Uindenates']",['la'],['Vindenates']
+416887,"['Uindenates', 'Vindenates']",['la'],['Vindenates']
 416888,['Visuentani'],['la'],['Visuentani']
 417517,['unknown'],['unknown'],['Castola']
 417518,['unknown'],['unknown'],['Saccumum']
@@ -16219,19 +16219,19 @@ pid,nameAttested,nameLanguage,nameTransliterated
 422868,['unknown'],['unknown'],['Careiae']
 422885,['unknown'],['unknown'],['Castra Albana']
 422886,['unknown'],['unknown'],['Castrimoenium']
-422889,['unknown'],['unknown'],"['T.', 'Ceres et Faustina']"
+422889,['unknown'],['unknown'],"['Ceres et Faustina', 'T.']"
 422898,['Collatia'],['la'],['Collatia']
 422909,['unknown'],['unknown'],['Cora']
 422910,['unknown'],['la'],['Corniculum']
 422912,['unknown'],['la'],['Cremera']
 422914,['unknown'],['la'],['Crustumerium']
-422916,['unknown'],['unknown'],"['T.', 'Dea Dia']"
+422916,['unknown'],['unknown'],"['Dea Dia', 'T.']"
 422917,['unknown'],['unknown'],"['T.', 'Diana']"
 422921,['Ficana'],['la'],['Ficana']
 422922,['unknown'],['la'],['Ficulea']
 422923,['unknown'],['unknown'],['Fidenae']
-422925,['unknown'],['unknown'],"['T.', 'Fortis Fortuna']"
-422926,['unknown'],['unknown'],"['T.', 'Fortuna Muliebris']"
+422925,['unknown'],['unknown'],"['Fortis Fortuna', 'T.']"
+422926,['unknown'],['unknown'],"['Fortuna Muliebris', 'T.']"
 422927,['unknown'],['unknown'],['Forum Appii']
 422930,['Fregenae'],['la'],['Fregenae']
 422932,['Gabii'],['la'],['Gabii']
@@ -16259,7 +16259,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 423012,['unknown'],['la'],['Portus']
 423016,['unknown'],['unknown'],['Priscilla']
 423023,['lacus Regillus'],['la'],['Regillus L.']
-423024,['unknown'],['unknown'],"['T.', 'Robigo']"
+423024,['unknown'],['unknown'],"['Robigo', 'T.']"
 423028,['unknown'],['unknown'],['Sabina']
 423029,['unknown'],['unknown'],['Sacer Mons']
 423031,['unknown'],['la'],['Salinae']
@@ -16285,10 +16285,10 @@ pid,nameAttested,nameLanguage,nameTransliterated
 649966335,['Theatre of Dionysos'],['en'],['Theatre of Dionysos']
 735295266,['τὸ κοινὸν τῶν Ἰώνων'],['grc'],['The Koinon of the Ionians']
 135544311,['unknown'],['ar'],['Tell Tūrin']
-427224440,['مدائن صالح'],['ar'],"[""Mada'in Salih"", ""Meda'in Saleh"", 'Medâin Sâleh', ""Madā'in Sālih"", ""Medâ'in Sâleh"", ""Madâ'in Sâlih"", ""Mada'in Saleh"", 'Madâin Sâlih', 'Madain Salih', ""Madā'in Sāleh"", ""Meda'in Salih""]"
+427224440,['مدائن صالح'],['ar'],"['Madâin Sâlih', ""Madā'in Sāleh"", ""Madā'in Sālih"", ""Meda'in Saleh"", ""Mada'in Salih"", ""Mada'in Saleh"", 'Medâin Sâleh', ""Meda'in Salih"", ""Madâ'in Sâlih"", 'Madain Salih', ""Medâ'in Sâleh""]"
 272290638,['Scarborough Castle'],['en'],['Scarborough Castle']
-957515415,['تل محمد دياب'],['ar'],"['Tell Mohammed Diyab', 'Tall Muḩammad Diyāb', 'Tall Mohammed Diyab', 'Tall Muhammad Diyab']"
-420811320,['وادي الجرف'],['arz'],"['Ouadi el-Jarf', 'Wādi al-Jarf', 'Wadi al-Jarf']"
+957515415,['تل محمد دياب'],['ar'],"['Tall Mohammed Diyab', 'Tall Muḩammad Diyāb', 'Tall Muhammad Diyab', 'Tell Mohammed Diyab']"
+420811320,['وادي الجرف'],['arz'],"['Wādi al-Jarf', 'Wadi al-Jarf', 'Ouadi el-Jarf']"
 122572946,['unknown'],['en'],['Walls of Caerwent (Venta Silurum)']
 236387,['unknown'],['unknown'],['Brittablo']
 236395,['unknown'],['unknown'],['Caladunum']
@@ -16755,7 +16755,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 246546,['unknown'],['unknown'],['Ouxama Barka']
 246549,['unknown'],['unknown'],['Pagus Gallorum et Segardinenssium']
 246551,['unknown'],['unknown'],['Palfuriana']
-246557,['unknown'],['unknown'],"['Pauliacum', 'Mon.']"
+246557,['unknown'],['unknown'],"['Mon.', 'Pauliacum']"
 246559,['unknown'],['la'],['Pelendones']
 246561,['unknown'],['unknown'],['Pertusa']
 246562,['unknown'],['unknown'],['Petregontio']
@@ -16789,7 +16789,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 246654,['unknown'],['unknown'],['Sicoris']
 246655,['unknown'],['unknown'],['Sigarra']
 246658,['unknown'],['unknown'],['Sordonum Ora']
-246659,['unknown'],['unknown'],"['Pic de Montlas', 'Ferrère']"
+246659,['unknown'],['unknown'],"['Ferrère', 'Pic de Montlas']"
 246661,['unknown'],['unknown'],['Sotiates']
 246663,['unknown'],['unknown'],['Sparianum']
 246664,['unknown'],['unknown'],['Stabulum Novum']
@@ -16809,9 +16809,9 @@ pid,nameAttested,nameLanguage,nameTransliterated
 874721,['unknown'],['unknown'],['Teleboas']
 874723,['unknown'],['unknown'],['Apqu']
 874729,['unknown'],['unknown'],['Ichnae']
-874730,['تل عربيد'],['arb'],"['Tell Arbid', 'Tell ‘Arbīd', 'Tall ‘Arbīd', 'Tall Arbid']"
+874730,['تل عربيد'],['arb'],"['Tall ‘Arbīd', 'Tell ‘Arbīd', 'Tell Arbid', 'Tall Arbid']"
 874732,['unknown'],['unknown'],['Kahat']
-874733,['unknown'],['arb'],"['Tell Beydar', 'Tall Baidar', 'Tall Baydar', 'Tell Beidar']"
+874733,['unknown'],['arb'],"['Tell Beydar', 'Tall Baidar', 'Tell Beidar', 'Tall Baydar']"
 874740,['unknown'],['unknown'],"[""Ta'idu""]"
 874746,['unknown'],['unknown'],['Vicat']
 874759,['unknown'],['unknown'],['Teroua']
@@ -16833,7 +16833,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 876566,['unknown'],['unknown'],['Anteba']
 876567,['unknown'],['unknown'],['Apadna']
 876568,['unknown'],['unknown'],['Arabessa']
-876569,['unknown'],['unknown'],"['Araborum', 'Mon.']"
+876569,['unknown'],['unknown'],"['Mon.', 'Araborum']"
 876570,['unknown'],['unknown'],['Armeniae Pylae']
 876572,['unknown'],['unknown'],['Athraelon']
 876573,['unknown'],['unknown'],['Audasson']
@@ -16960,7 +16960,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 876739,['unknown'],['unknown'],['Zamarthas']
 876740,['unknown'],['unknown'],['Zigira']
 876741,['unknown'],['unknown'],['Zorbandon']
-876742,['unknown'],['unknown'],"['Mon.', 'Zuqnin']"
+876742,['unknown'],['unknown'],"['Zuqnin', 'Mon.']"
 877312,['unknown'],['unknown'],['Armenochalybes']
 877314,['unknown'],['unknown'],['Baris M.']
 877316,['unknown'],['unknown'],['Karkathiokerta']
@@ -17269,7 +17269,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 903083,['unknown'],['unknown'],['Mihragan Kadag']
 903096,['unknown'],['unknown'],['Paraetacene']
 903111,['unknown'],['unknown'],['Saveh']
-903126,['طاق بستان'],['fa'],"['Taq-i Bostan', 'Taq Bustan', 'Taq-i Bustan', 'Taq-e Bustan', 'Taq-e Bostan', 'Taq Bostan']"
+903126,['طاق بستان'],['fa'],"['Taq-e Bustan', 'Taq Bustan', 'Taq-i Bustan', 'Taq Bostan', 'Taq-e Bostan', 'Taq-i Bostan']"
 906004,['unknown'],['unknown'],['Badake']
 906006,['unknown'],['unknown'],['Bazigraban']
 906012,['unknown'],['unknown'],['Herakleia']
@@ -17277,7 +17277,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 906017,['unknown'],['unknown'],['Media Ano']
 906018,['unknown'],['unknown'],['Mihragan-Kadag']
 771725842,['Isola Tiberina'],['it'],['Isola Tiberina']
-189900109,['تل الفرخة'],['arz'],"['Tell el-Farcha ', 'Tell el-Farkha', 'Tall al-Farkha']"
+189900109,['تل الفرخة'],['arz'],"['Tell el-Farkha', 'Tall al-Farkha', 'Tell el-Farcha ']"
 570101218,['Villa Fuente Álamo'],['es'],['Villa Fuente Álamo']
 971703786,['სამშვილდე'],['ka'],['Samsvhilde']
 404424015,['Southwark'],['en'],['Southwark']
@@ -17462,7 +17462,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 108982,['unknown'],['unknown'],['Otrang']
 108984,['unknown'],['unknown'],['Daspich']
 108985,['unknown'],['unknown'],['Chameleux']
-108990,['unknown'],['unknown'],"['Castellains', 'Fontaine-Valmont']"
+108990,['unknown'],['unknown'],"['Fontaine-Valmont', 'Castellains']"
 108991,['unknown'],['unknown'],['Franci']
 108996,['unknown'],['unknown'],['Frisiavones']
 108997,['unknown'],['unknown'],['Furfooz']
@@ -17551,7 +17551,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 109301,['unknown'],['unknown'],['Sagii']
 109305,['Saint-Aubin-sur-Gaillon'],['fr'],['Saint-Aubin-sur-Gaillon']
 109307,['unknown'],['unknown'],['Saint-Dié-des-Vosges']
-109311,['unknown'],['unknown'],"['Vieux-Virton', 'Saint-Mard']"
+109311,['unknown'],['unknown'],"['Saint-Mard', 'Vieux-Virton']"
 109317,['unknown'],['unknown'],['Saletio']
 109318,['unknown'],['unknown'],['Salioclita']
 109319,['unknown'],['unknown'],['Salisio']
@@ -17694,7 +17694,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 118912,['unknown'],['unknown'],['Portus']
 397011004,['Σκιράδος Ἀθηνᾶς ναός'],['grc'],['Skirados Athenas naos']
 397011005,['Гордіївка'],['uk'],"['Hordiivka', 'Gordiyevka', 'Hordiïvka', 'Hordeevka']"
-698464019,"['Teiada', 'Texada']",['es'],"['Teiada', 'Texada']"
+698464019,"['Texada', 'Teiada']",['es'],"['Texada', 'Teiada']"
 34546779,['unknown'],['akk'],['Kozan']
 71107898,['Temple of Amphiaraos '],['en'],['Temple of Amphiaraus ']
 381896576,['Kenan Tepe'],['tr'],['Kenan Tepe']
@@ -17703,7 +17703,7 @@ pid,nameAttested,nameLanguage,nameTransliterated
 66019947,['unknown'],['la'],['Papiria']
 26356565,['Tel Megiddo'],['en'],['Tel Megiddo']
 6086187,['Тоора-Даш'],['ru'],['Toora-Dash']
-8989353,['Телеутский Взвоз-I'],['ru'],"['Teleutskiy Vzvoz-I', '', 'Teleutskiĭ Vzvoz-I']"
+8989353,['Телеутский Взвоз-I'],['ru'],"['', 'Teleutskiĭ Vzvoz-I', 'Teleutskiy Vzvoz-I']"
 886756147,['unknown'],['tr'],['Kaymakçı']
 509264180,['unknown'],['it'],['Fiume Arrone']
 232079422,['unknown'],['it'],['Cetona']
