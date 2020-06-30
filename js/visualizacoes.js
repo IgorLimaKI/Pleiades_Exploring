@@ -1,22 +1,14 @@
-var d3 = require('d3');
-var dc = require('dc');
-var crossfilter = require('crossfilter2');
-var L = require('leaflet');
-var bootstrap = require('bootstrap');
-var $ = require('jquery');
-
-$(function(){
-	var dataset= d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/master/PLEAIDES.csv").then(function(data){
+d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/master/PLEIADES.csv").then(function(data){
 	  
 	var facts= crossfilter(data);
 
 	var featureDimension = facts.dimension(d=>d.featureType);
 
 
-  var view = document;
-  var tableChart = dc.dataTable(view.querySelector('#dc-table-graph'));
+	var view = document;
+	var tableChart = dc.dataTable('#dc-table-graph');
   
-  tableChart.width(500)
+	tableChart.width(500)
             .height(800)
             .dimension(featureDimension)
             .group(d => "List of all places corresponding to the filters")
@@ -29,10 +21,10 @@ $(function(){
             .order(d3.ascending)
   
   
-  dc.renderAll()
+	dc.renderAll()
 
  
-	  var map = L.map('mapid');
+	var map = L.map('mapid');
 	  
 	$('#mapid').css('height', 800);
 	  var teste = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
@@ -55,6 +47,3 @@ $(function(){
 	map.setView({ lat: 47.040182144806664, lng: 9.667968750000002 }, 4);
 	return view;
 	});
-});
-
-
