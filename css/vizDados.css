@@ -61,3 +61,16 @@ body {
     width: 800px
     height: 800px
 }
+
+#mainMap {
+  width: 950px;
+  height: 480px;
+}
+
+#structureChart {
+  overflow-x: auto;
+}
+
+#periodsChart {
+  overflow-x: auto;
+}

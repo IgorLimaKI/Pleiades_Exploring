@@ -1,5 +1,26 @@
 d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/master/PLEIADES.csv").then(function(data){
 	  
+	data.forEach(function (d){
+	  d.id = parseInt(d.id);
+	  d.maxDate = parseInt(d.maxDate);
+	  d.minDate = parseInt(d.minDate);
+	  d.timePeriodsKeys = d.timePeriodsKeys.split(",");
+	  d.tags = d.tags.split(",");
+	  
+	  d.reprLat = parseFloat(d.reprLat);
+	  d.reprLong = parseFloat(d.reprLong);
+	  
+	  d.bbox = d.bbox.split(",");
+	  for(var i=0; i< d.bbox.length; i++){
+		d.bbox[i] = parseFloat(d.bbox[i]);
+	  };
+	  
+	  d.featureType = d.featureType.split(",");
+	  d.nameAttested = d.nameAttested.split(",");
+	  d.nameLanguage = d.nameLanguage.split(",");
+	  d.nameTransliterated = d.nameTransliterated.split(",");
+    }); 
+	  
 	var facts= crossfilter(data);
 
 	var featureDimension = facts.dimension(d=>d.featureType);
@@ -42,6 +63,11 @@ d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/maste
 				  fillColor: '#fecc5c',
 				  fillOpacity: 0.5
 			  })
+		  var strucp = d.featureType.join(' ');
+				circle.bindPopup("<b>" + d.title + "</b>" + "<br>" +
+				"<b>Description: </b>" + d.description + "<br>" +
+				"<b>Structure Type(s): </b>" + strucp + "<br>" +
+				"<b>Time Period: </b>" + d.minDate + " ~ " + d.maxDate);
 		circlesLayer.addLayer(circle) })
 		
 	map.setView({ lat: 47.040182144806664, lng: 9.667968750000002 }, 4);
