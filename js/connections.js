@@ -46,8 +46,8 @@ Promise.all(promises).then(ready);
 
 function ready([data]) {
 	  
-  const width = 950
-  const height = 480
+  const width = 1000
+  const height = 500
   
   let view = document;
   
@@ -64,7 +64,9 @@ function ready([data]) {
                       .domain([0, d3.max(data.nodes, d => d.connections)])
                       .range(["#070540","#ffbf75"]);
   
-  const nodes = data.nodes;
+  const nodes = data.nodes.filter(function(obj){
+                              return obj.connections != 0;
+                           });
   const links = data.links;
   
   const simulation = d3.forceSimulation()
@@ -76,7 +78,7 @@ function ready([data]) {
   
   var chargeF = d3.forceManyBody()
                   .strength(-150)
-                  .distanceMax(1000);
+                  .distanceMax(1800);
   
   var centerF = d3.forceCenter();
   
@@ -87,6 +89,7 @@ function ready([data]) {
   simulation.on("tick", tickActions);
   
   var g = svg.append('g')
+             .attr("transform","translate(" + width/2 + "," + height/2 + ") scale(0.05,0.05)")
              .attr("class","everything");
   
   const link = g.append('g')
@@ -149,7 +152,8 @@ function ready([data]) {
   }
   
   function zAct(){
-    g.attr("transform", d3.event.transform)
+    g.attr("transform","translate(" + width/2 + "," + height/2 + ") scale(0.025,0.025)")
+     .attr("transform", d3.event.transform);
   }
   
   function mouseON(d){    
@@ -241,11 +245,11 @@ function ready([data]) {
     var aux = dataset.find(x => x.id == d.id);
     var strucp = aux.featureType.join(' ');
 
-    var h = "Name: " + aux.title + "\n" +
-            "Description: " + aux.description + "\n" +
-            "Structure Type(s): " + strucp + "\n" +
-            "Time Period: " + aux.minDate + " ~ " + aux.maxDate +"\n" +
-            "Number of Connections: " + d.connections;
+    var h = "Nome: " + aux.title + "\n" +
+            "Descrição: " + aux.description + "\n" +
+            "Tipo(s) de Estrutura: " + strucp + "\n" +
+            "Período Estimado: " + aux.minDate + " ~ " + aux.maxDate +"\n" +
+            "Número de Conexões: " + d.connections;
     return h;
   }
   
