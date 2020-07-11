@@ -48,7 +48,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="panel.html">Painel Interativo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="connections.html">Grafo de Conexões</a>
           </li>
         </ul>
       </div>
@@ -60,38 +63,52 @@
     <img class="img-fluid d-block mx-auto" src="pleiades-logo.png" alt="">
   </header>
 
-  <main role="main" class="container">
-    <div class="row">
-      <h4> Places in Pleiades</h4>
-    </div>
-    <div id="mapid"></div>
-    <table class="table table-hover" id="dc-table-graph">
-        <thead>
-            <tr class="header">
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-                <th>--</th>
-            </tr>
-        </thead>
-    </table>
-	<p>PAra visualizar o grafo de conexões <a href="connections.html">clique aqui</a></p>
-  </main>
-
   <!-- Content section -->
   <section class="py-5">
-    <div class="container">
-      <h1>Section Heading</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+  	<div class="container">
+  		<h1>O que é o Pleiades?</h1>
+    	 <p class="lead"><a href=https://pleiades.stoa.org/>Pleiades</a> é uma comunidade responsável por manter diariamente um “dicionário geográfico” de locais antigos, como templos, fortes, cavernas e outras estruturas consideradas portadoras de valor histórico. Esta comunidade possui um database de tamanho considerável, contendo informações como localização, descrição, nome, período relacionado e conexões de mais de 37 mil locais, a maior parte deles localizado no continente europeu e na porção norte do continente africano.</p>
+
+    	<p class="lead">Devido ao volume de dados, é um desafio considerável traduzir o conteúdo reunido por essa comunidade em uma linguagem visual que seja agradável e interessante para o público comum, como pode ser observado no <a href=https://rmhorne.org/2018/11/11/what-do-you-do-with-36409-places-and-6506-connections-some-cartographic-representations-of-pleiades-data/>projeto de Ryan M.Horne</a> de observar os locais e suas conexões espalhados pelo planeta. Portanto, o objetivo desta página é explorar alguns dos aspectos dos dados de Pleiades, fornecer representações visuais de seu conteúdo e permitir que seus leitores possam interagir com as descobertas apresentadas.</p>
+
+    	<p class="lead">No mapa abaixo, cada ponto representa um local catalogado. Você pode obter mais informações sobre cada local clicando sobre os pontos, manipulando o zoom ou arrastando o mapa para os lados para ter melhor noção da localização de cada um.</p>
+
+    	<!-- ###################### MAP CONTENT ###################### -->
+
+    	<main role="main" class="container">
+    		<div id="mapid"></div>
+    		<p>Dados originais em <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
+  		</main>
+
+  		<!-- ###################### MAP CONTENT ###################### -->
+  	</div>
+
+  	<div class="container">
+    	<h1>Dados Utilizados</h1>
+    	<p class="lead">O conjunto de dados usado para a geração dos gráficos é composto originalmente por 3 arquivos separados, locations, places e names, obtidos na <a href=http://atlantides.org/downloads/pleiades/dumps/?C=M;O=D>página de downloads da comunidade</a> no dia 08/06/2020 07:10 (BRT). Eles foram filtrados e organizados em dois arquivos finais: um <a href=https://gist.githubusercontent.com/EveAndrade/0b939e13487c446ae0193f895f001993/raw/05a881978b1cb0237e39094ea799ba2ec2ba7327/PLEIADES.csv>CSV</a> contendo os dados gerais de cada lugar e um <a href=https://gist.githubusercontent.com/EveAndrade/35f886bf3dfd8c4cfa3bb919fb5dbab6/raw/0dda5ff717ab871acf5ffc4580ee31c9038dbe5b/PLEIADES.json>JSON</a> contendo as algumas conexões registradas entre eles. Dos mais de 36 mil registros, 29767 foram considerados completos e relevantes o suficiente para serem utilizados como base para o painel interativo e apenas 6754 válidos para se apresentar as conexões.</p>
+
+    	<!-- ###################### TABLE CONTENT ###################### -->
+
+    	<table class="table table-hover" id="dc-table-graph">
+   			<thead>
+    			<tr class="header">
+	                <th>--</th>
+	                <th>--</th>
+	                <th>--</th>
+	                <th>--</th>
+	                <th>--</th>
+            	</tr>
+        	</thead>
+    	</table>
+
+    	<!-- ###################### TABLE CONTENT ###################### -->
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Igor Lima & Eveline Andrade - Visualização de Dados - UFC 2020</p>
     </div>
     <!-- /.container -->
   </footer>
