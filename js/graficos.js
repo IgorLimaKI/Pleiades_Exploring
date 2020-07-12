@@ -202,25 +202,25 @@ function readyBarScatterBubble([data]) {
   let visibleMarkers = []
   
   function updateMarkers(){
-  let ids = idGrouping.all()
-  let todisplay = new Array(ids.length) //preallocate array to be faster
-  let mc = 0; //counter of used positions in the array
-  for (let i = 0; i < ids.length; i++) {
-    let tId = ids[i];
-    if(tId.value > 0){ //when an element is filtered, it has value > 0
-      todisplay[mc] = markers.get(tId.key)
-      mc = mc + 1
-    }
+	  let ids = idGrouping.all()
+	  let todisplay = new Array(ids.length) //preallocate array to be faster
+	  let mc = 0; //counter of used positions in the array
+	  for (let i = 0; i < ids.length; i++) {
+		let tId = ids[i];
+		if(tId.value > 0){ //when an element is filtered, it has value > 0
+		  todisplay[mc] = markers.get(tId.key)
+		  mc = mc + 1
+		}
+	  }
+	  todisplay.length = mc; //resize the array so Leaflet does not complain
+	  if (layerList.length == 1) {
+		layerList[0].clearLayers() //remove circles in layerGroup
+		if (mapI.hasLayer(layerList[0])){
+		  mapI.removeLayer(layerList[0]) //remove layerGroup if present
+		}
+	  }
+	  layerList[0] = L.layerGroup(todisplay).addTo(mapI) //add it again passing the array of markers
   }
-  todisplay.length = mc; //resize the array so Leaflet does not complain
-  if (layerList.length == 1) {
-    layerList[0].clearLayers() //remove circles in layerGroup
-    if (mapI.hasLayer(layerList[0])){
-      mapI.removeLayer(layerList[0]) //remove layerGroup if present
-    }
-  }
-  layerList[0] = L.layerGroup(todisplay).addTo(mapI) //add it again passing the array of markers
-}
   
   function updateFilters(e){
   layerList[0].eachLayer(function(layer) {
@@ -240,8 +240,84 @@ function readyBarScatterBubble([data]) {
   });
 
   dc.redrawAll();
-}
+  }
+  
+  var pediDim = facts.dimension((d => d.timePeriodsKeys),true);
+  var periGroup = pediDim.group();
+  
+  var data = {"children":periGroup.top(Infinity).filter(d => d.key != "unknown")};
+  
+  const bubble = d3.pack(data)
+                 .size([700,700])
+                 .padding(1.5);
+  
+  var svg = d3.select("#periodsChart").append("svg")
+              .attr("class","bubble")
+			  .style("width", "800px")
+			  .style("height", "800px")
+              .style("cursor", "pointer");
+  
+  var nodes = d3.hierarchy(data)
+                .sum(d => d.value);
+  
+  var node = svg.selectAll(".node")
+                .data(bubble(nodes).descendants())
+                .enter()
+                .filter(d => !d.children)
+                .append("g")
+                .attr("class","node")
+                .attr("transform", function(d){
+                   return "translate(" + d.x + "," + d.y + ")";
+                });
+  
+  node.append("title")
+      .text(d => "Time Period: " + d.data.key + "\n" + "Number of Places: " + d.data.value);
+  
+  clicado = false
+  
+  node.append("circle")
+      .attr("r", d => d.r)
+      .style("fill", "#379e90")
+	  .on("click", function(d) {
+		d3.selectAll("circle") 
+		.style("fill", "#379e90");
+		pediDim.filterAll();
+		d3.select(this) 
+		.style("fill", "#070540");
+		pediDim.filter(d.data.key);
+	    updateMarkers();
+	    dc.renderAll();
+      });
+  
+  $('a').click(function(event) {
+    event.preventDefault();
+    clicado = false
+	d3.selectAll("circle") 
+	.style("fill", "#379e90");
+	pediDim.filterAll();
+	updateMarkers();
+	dc.renderAll();
+  });
+  
+  node.append("text")
+      .style("text-anchor","middle")
+      .text(d => d.data.key)
+      .attr("font-family", "sans-serif")
+      .attr("font-size", function(d){
+          return d.r/7;
+      })
+      .attr("fill", "white");
+	  
+  
+  var zoomH = d3.zoom()
+                .on("zoom", zAct);
+  zoomH(svg);
+  
+  function zAct(){
+    svg.attr("transform", d3.event.transform)
+  }
   
   updateMarkers()
   dc.renderAll()
+  return svg.node()
 	};
