@@ -36,6 +36,8 @@ let promisesBarScatterBubble = [
   })
 ]
 
+//###################### BAR CONTENT ######################
+
 Promise.all(promisesBarScatterBubble).then(readyBarScatterBubble);
 
 function readyBarScatterBubble([data]) {
@@ -98,7 +100,7 @@ function readyBarScatterBubble([data]) {
   structCountBarChart.width(width)
                      .height(height)
                      .dimension(sDim)
-                     .group(sGroup, 'Number of Structures by Type')
+                     .group(sGroup, 'Número de Locais por Tipo de Estrutura')
                      .x(sScale)
                      .xUnits(dc.units.ordinal)
                      .elasticX(true)
@@ -108,10 +110,18 @@ function readyBarScatterBubble([data]) {
                      .legend(dc.legend().x(width-2800).y(5).itemHeight(13).gap(5))
                      .renderHorizontalGridLines(true)
                      .colors('#379e90')
+                     .xAxisLabel("Tipo de Estrutura")
+                     .yAxisLabel("Número de Locais")
                      .on("filtered", function(chart,filter){updateMarkers()});
   
-  const width2 = 800
-  const height2 = 800
+
+  //###################### BAR CONTENT ######################
+
+  
+  //###################### SCATTER CONTENT ######################
+
+  const width2 = 500
+  const height2 = 500
   
   
   let timeScatterChart = dc.scatterPlot(view.querySelector("#timeChart"));
@@ -162,8 +172,8 @@ function readyBarScatterBubble([data]) {
                   .colorAccessor(d => d.value)
                   .colors(d => colorScale(d))
                   .excludedColor("#dddddd")
-                  .xAxisLabel("Minimum Year Estimated")
-                  .yAxisLabel("Maximum Year Estimated")
+                  .xAxisLabel("Ano Mínimo Estimado")
+                  .yAxisLabel("Ano Máximo Estimado")
                   .on("filtered", function(chart,filter){updateMarkers()});
   
   $('#selectScatter').click(function(event) {
@@ -181,8 +191,15 @@ function readyBarScatterBubble([data]) {
 	$('#selectScatter').removeClass('disabled');
 	dc.renderAll();
   });
+
+  //###################### SCATTER CONTENT ######################
+
   
+  //###################### MAP CONTENT ######################
+
   let mapI = L.map('mainMap').setView([36.7,43.0],2.5)
+
+  $('#mainMap').css('height', 500).css('width', 1000);
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors',
 		maxZoom: 17
@@ -196,14 +213,14 @@ function readyBarScatterBubble([data]) {
   data.forEach(function (d){
     let point = L.circle([d.reprLat,d.reprLong],{
       color: '#379e90',
-      weight: 5
+      weight: 2
     });
     
     var strucp = d.featureType.join(' ');
-    point.bindPopup("<b>" + d.title + "</b>" + "<br>" +
-                    "<b>Description: </b>" + d.description + "<br>" +
-                    "<b>Structure Type(s): </b>" + strucp + "<br>" +
-                    "<b>Time Period: </b>" + d.minDate + " ~ " + d.maxDate);
+    point.bindPopup("<b>Nome: </b>" + d.title + "<br>" +
+                    "<b>Descrição: </b>" + d.description + "<br>" +
+                    "<b>Tipo(s) de Estrutura: </b>" + strucp + "<br>" +
+                    "<b>Intervalo Estimado: </b>" + d.minDate + " ~ " + d.maxDate);
     
     point.on('clustermouseover', function(e){});
     point.id = d.id;
@@ -256,6 +273,13 @@ function readyBarScatterBubble([data]) {
 
   dc.redrawAll();
   }
+
+  //###################### MAP CONTENT ######################
+
+
+
+  //###################### BUBBLE CONTENT ######################
+
   
   var pediDim = facts.dimension((d => d.timePeriodsKeys),true);
   var periGroup = pediDim.group();
@@ -263,13 +287,13 @@ function readyBarScatterBubble([data]) {
   var data = {"children":periGroup.top(Infinity).filter(d => d.key != "unknown")};
   
   const bubble = d3.pack(data)
-                 .size([700,700])
+                 .size([500,500])
                  .padding(1.5);
   
   var svg = d3.select("#periodsChart").append("svg")
               .attr("class","bubble")
-			  .style("width", "800px")
-			  .style("height", "800px")
+			        .style("width", "500px")
+			        .style("height", "500px")
               .style("cursor", "pointer");
   
   var nodes = d3.hierarchy(data)
@@ -286,7 +310,7 @@ function readyBarScatterBubble([data]) {
                 });
   
   node.append("title")
-      .text(d => "Time Period: " + d.data.key + "\n" + "Number of Places: " + d.data.value);
+      .text(d => "Período: " + d.data.key + "\n" + "Número de Locais: " + d.data.value);
   
   clicado = false
   
@@ -331,6 +355,8 @@ function readyBarScatterBubble([data]) {
   function zAct(){
     svg.attr("transform", d3.event.transform)
   }
+
+  //###################### BUBBLE CONTENT ######################
   
   updateMarkers()
   dc.renderAll()

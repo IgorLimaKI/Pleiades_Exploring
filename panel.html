@@ -66,36 +66,58 @@
    <section class="py-5">
     <div class="container">
       <h1>Painel Interativo</h1>
-       <p class="lead">bla bla bla ainda vou colocar</p>
+      <p class="lead">Nesta página você pode interagir com algumas características dos dados. O mapa abaixo mostrará mudanças dependendo do que for selecionado nos demais gráficos, aparecendo somente os pontos que possuírem algum atributo relacionado com o que foi marcado nas outras visualizações.</p>
 
-      <!-- ###################### MAP CONTENT ###################### -->
 
       <main role="main" class="container">
-	  <div class='row'>
-        <div id="mainMap"></div>
-        <p>Dados originais em <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
-	  </div>
-	  <div class='row'>
-		<h2>- Number of Places per Structure Type -</h2>
-		<div id="structureChart"></div>
-	  </div>
-	  <p>Original data at <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
-	  <div class='row'>
-		<h2>- Number of Places by Estimated Date -</h2>
-		<a id="selectScatter" class="btn btn-primary btn-xs margemButton" href="#"> Show tooltips </a>
-		<a id="filterScatter" class="btn btn-primary btn-xs margemButton disabled" href="#"> Filter </a>
-		<div id="timeChart"></div>
-	  </div>
-	  <p>Original data at <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
-	  <div class='row'>
-        <h2>- Distribution of Places by Estimated Date -</h2>
-		<a id="resetPeriod" class="btn btn-danger btn-xs margemButton" href="#"> Reset filters </a>
-        <div id="periodsChart"></div>
-      </div>
-      <p>Original data at <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
+
+          <!-- ###################### MAP CONTENT ###################### -->
+	        <div class='container'>
+            <div id="mainMap"></div>
+            <p>Dados originais em <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
+	        </div>
+          <!-- ###################### MAP CONTENT ###################### -->
+
+
+          <div class='row'>
+
+            <!-- ###################### SCATTER CONTENT ###################### -->
+            <div class="col-6">
+              <h2>Distribuição de Locais por Intervalo de Tempo Estimado</h2>
+              <a id="selectScatter" class="btn btn-info btn-xs margemButton" href="#">Disponibilizar Números</a>
+              <a id="filterScatter" class="btn btn-info btn-xs margemButton disabled" href="#">Selecionar Área</a>
+
+              <div id="timeChart"></div>
+              <p>Dados originais em <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
+              <p class="lead">Nesta página você pode interagir com algumas características dos dados. O mapa abaixo mostrará mudanças dependendo do que for selecionado nos demais gráficos, aparecendo somente os pontos que possuírem algum atributo relacionado com o que foi marcado nas outras visualizações.</p>
+            </div>
+            <!-- ###################### SCATTER CONTENT ###################### -->
+
+
+            <!-- ###################### BUBBLE CONTENT ###################### -->
+            <div class="col-6">
+              <h2>Número de Locais por Período Histórico</h2>
+              <a id="resetPeriod" class="btn btn-info btn-xs margemButton" href="#">Limpar Filtro</a>
+              <div id="periodsChart"></div>
+              <p>Dados originais em <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
+              <p class="lead">Nesta página você pode interagir com algumas características dos dados. O mapa abaixo mostrará mudanças dependendo do que for selecionado nos demais gráficos, aparecendo somente os pontos que possuírem algum atributo relacionado com o que foi marcado nas outras visualizações.</p>             
+            </div>
+            <!-- ###################### BUBBLE CONTENT ###################### -->
+          </div>
+
+
+          <!-- ###################### BAR CONTENT ###################### -->
+          <h2>Número de Locais por Tipo de Estrutura</h2>
+          <p class="lead">Clicando nas barras, aparecerá no mapa somente os pontos que tiverem <b>o(s) mesmo(s) Tipo(s) de Estrutura</b> entitulados por elas. Simultaneamente, no gráfico de <b>Distribuição de Locais por Intervalo de Tempo Estimado</b> aparecerão somente os pontos temporais aos quais as barras estão relacionadas.</p>
+
+	        <div class='container'>
+		        <div id="structureChart"></div>
+            <p>Dados originais em <a href="https://pleiades.stoa.org/">Pleiades</a>.</p>
+	        </div>
+          <!-- ###################### BAR CONTENT ###################### -->
+
       </main>
 
-      <!-- ###################### MAP CONTENT ###################### -->
     </div>
 	
   </section>  

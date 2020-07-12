@@ -21,7 +21,15 @@ let promises = [
     data.forEach(function (d){
       d.id = parseInt(d.id);
       d.maxDate = parseInt(d.maxDate);
+      if(isNaN(d.maxDate)){
+        d.maxDate = 0
+      }
+      
       d.minDate = parseInt(d.minDate);
+      if(isNaN(d.minDate)){
+        d.minDate = 0
+      }
+      
       d.timePeriodsKeys = d.timePeriodsKeys.split(",");
       d.tags = d.tags.split(",");
       
@@ -29,7 +37,7 @@ let promises = [
       d.reprLong = parseFloat(d.reprLong);
       
       d.bbox = d.bbox.split(",");
-      for(var i=0; i< d.bbox.length; i++){
+      for(var i=0; i< d.bbox.length; i++){ 
         d.bbox[i] = parseFloat(d.bbox[i]);
       };
       
@@ -248,7 +256,7 @@ function ready([data]) {
     var h = "Nome: " + aux.title + "\n" +
             "Descrição: " + aux.description + "\n" +
             "Tipo(s) de Estrutura: " + strucp + "\n" +
-            "Período Estimado: " + aux.minDate + " ~ " + aux.maxDate +"\n" +
+            "Intervalo Estimado: " + aux.minDate + " ~ " + aux.maxDate +"\n" +
             "Número de Conexões: " + d.connections;
     return h;
   }

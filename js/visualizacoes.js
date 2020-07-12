@@ -2,23 +2,31 @@ d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/maste
 	  
 	data.forEach(function (d){
 	  d.id = parseInt(d.id);
-	  d.maxDate = parseInt(d.maxDate);
-	  d.minDate = parseInt(d.minDate);
-	  d.timePeriodsKeys = d.timePeriodsKeys.split(",");
-	  d.tags = d.tags.split(",");
-	  
-	  d.reprLat = parseFloat(d.reprLat);
-	  d.reprLong = parseFloat(d.reprLong);
-	  
-	  d.bbox = d.bbox.split(",");
-	  for(var i=0; i< d.bbox.length; i++){
-		d.bbox[i] = parseFloat(d.bbox[i]);
-	  };
-	  
-	  d.featureType = d.featureType.split(",");
-	  d.nameAttested = d.nameAttested.split(",");
-	  d.nameLanguage = d.nameLanguage.split(",");
-	  d.nameTransliterated = d.nameTransliterated.split(",");
+      d.maxDate = parseInt(d.maxDate);
+      if(isNaN(d.maxDate)){
+        d.maxDate = 0
+      }
+      
+      d.minDate = parseInt(d.minDate);
+      if(isNaN(d.minDate)){
+        d.minDate = 0
+      }
+      
+      d.timePeriodsKeys = d.timePeriodsKeys.split(",");
+      d.tags = d.tags.split(",");
+      
+      d.reprLat = parseFloat(d.reprLat);
+      d.reprLong = parseFloat(d.reprLong);
+      
+      d.bbox = d.bbox.split(",");
+      for(var i=0; i< d.bbox.length; i++){ 
+        d.bbox[i] = parseFloat(d.bbox[i]);
+      };
+      
+      d.featureType = d.featureType.split(",");
+      d.nameAttested = d.nameAttested.split(",");
+      d.nameLanguage = d.nameLanguage.split(",");
+      d.nameTransliterated = d.nameTransliterated.split(",");
     }); 
 	  
 	var facts= crossfilter(data);
@@ -32,7 +40,7 @@ d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/maste
 	tableChart.width(500)
             .height(800)
             .dimension(featureDimension)
-            .group(d => "List of all places corresponding to the filters")
+            .group(d => "Lista de Locais")
             .size(5)
             .columns(['id',
                       'title',
@@ -47,8 +55,8 @@ d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/maste
  
 	var map = L.map('mapid');
 	  
-	$('#mapid').css('height', 800);
-	  var teste = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+	$('#mapid').css('height', 500);
+	var teste = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 		}).addTo(map);
 
@@ -58,18 +66,18 @@ d3.csv("https://raw.githubusercontent.com/IgorLimaKI/TrabalhoFinalVisDados/maste
 	  circlesLayer.clearLayers()
 	  data.forEach( function(d) {
 		  var circle = L.circle([d.reprLat, d.reprLong], 5, {
-				  color: '#fd8d3c',
+				  color: '#379e90',
 				  weight: 2,
-				  fillColor: '#fecc5c',
+				  fillColor: '#379e90',
 				  fillOpacity: 0.5
 			  })
 		  var strucp = d.featureType.join(' ');
-				circle.bindPopup("<b>" + d.title + "</b>" + "<br>" +
-				"<b>Description: </b>" + d.description + "<br>" +
-				"<b>Structure Type(s): </b>" + strucp + "<br>" +
-				"<b>Time Period: </b>" + d.minDate + " ~ " + d.maxDate);
+				circle.bindPopup("<b>Nome: </b>" + d.title + "<br>" +
+				"<b>Descrição: </b>" + d.description + "<br>" +
+				"<b>Tipo(s) de Estrutura: </b>" + strucp + "<br>" +
+				"<b>Intervalo Estimado: </b>" + d.minDate + " ~ " + d.maxDate);
 		circlesLayer.addLayer(circle) })
 		
-	map.setView({ lat: 47.040182144806664, lng: 9.667968750000002 }, 4);
+	map.setView([36.7,43.0],2.5);
 	return view;
 	});
