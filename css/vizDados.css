@@ -57,6 +57,11 @@ body {
   height: 100%;
 }
 
+.margemButton {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
 #mapid {
     width: 800px
     height: 800px

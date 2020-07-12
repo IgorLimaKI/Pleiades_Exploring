@@ -166,6 +166,21 @@ function readyBarScatterBubble([data]) {
                   .yAxisLabel("Maximum Year Estimated")
                   .on("filtered", function(chart,filter){updateMarkers()});
   
+  $('#selectScatter').click(function(event) {
+    event.preventDefault();
+	timeScatterChart.brushOn(false);
+	$('#selectScatter').addClass('disabled');
+	$('#filterScatter').removeClass('disabled');
+	dc.renderAll();
+  });
+  
+  $('#filterScatter').click(function(event) {
+    event.preventDefault();
+	timeScatterChart.brushOn(true);
+	$('#filterScatter').addClass('disabled');
+	$('#selectScatter').removeClass('disabled');
+	dc.renderAll();
+  });
   
   let mapI = L.map('mainMap').setView([36.7,43.0],2.5)
     L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
@@ -289,7 +304,7 @@ function readyBarScatterBubble([data]) {
 	    dc.renderAll();
       });
   
-  $('a').click(function(event) {
+  $('#resetPeriod').click(function(event) {
     event.preventDefault();
     clicado = false
 	d3.selectAll("circle") 
