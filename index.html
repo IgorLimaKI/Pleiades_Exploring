@@ -53,6 +53,9 @@
           <li class="nav-item">
             <a class="nav-link" href="connections.html">Grafo de Conexões</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="info.html">Informações Técnicas</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -85,7 +88,7 @@
 
   	<div class="container">
     	<h1>Dados Utilizados</h1>
-    	<p class="lead">O conjunto de dados usado para a geração dos gráficos é composto originalmente por 3 arquivos CSV (UTF-8) separados, pleiades-locations (18.5 MB), pleiades-places (18.5 MB) e pleiades-names (12.5 MB), obtidos na <a href=http://atlantides.org/downloads/pleiades/dumps/?C=M;O=D>página de downloads da comunidade</a> no dia 08/06/2020 07:10 (BRT). Eles foram filtrados e organizados em dois arquivos finais: um <a href=https://gist.github.com/EveAndrade/0b939e13487c446ae0193f895f001993>CSV</a> (9.81 MB) contendo os dados gerais de cada local e um <a href=https://gist.github.com/EveAndrade/35f886bf3dfd8c4cfa3bb919fb5dbab6>JSON</a> (832 KB) contendo as algumas conexões registradas entre eles. Dos mais de 37 mil registros, 29767 foram considerados completos e relevantes o suficiente para serem utilizados como base para o painel interativo e apenas 6534 válidos para se apresentar as conexões. A maior parte dos dados removidos não possuía</p>
+    	<p class="lead">O conjunto de dados usado para a geração dos gráficos é composto originalmente por 3 arquivos CSV (UTF-8) separados, pleiades-locations (18.5 MB), pleiades-places (18.5 MB) e pleiades-names (12.5 MB), obtidos na <a href=http://atlantides.org/downloads/pleiades/dumps/?C=M;O=D>página de downloads da comunidade</a> no dia 08/06/2020 07:10 (BRT). Eles foram filtrados e organizados em dois arquivos finais: um <a href=https://gist.github.com/EveAndrade/0b939e13487c446ae0193f895f001993>CSV</a> (9.81 MB) contendo os dados gerais de cada local e um <a href=https://gist.github.com/EveAndrade/35f886bf3dfd8c4cfa3bb919fb5dbab6>JSON</a> (832 KB) contendo as algumas conexões registradas entre eles. Dos mais de 37 mil registros, 29767 foram considerados completos e relevantes o suficiente para serem utilizados como base para o painel interativo e apenas 6534 válidos para se apresentar as conexões.</p>
 
     	<!-- ###################### TABLE CONTENT ###################### -->
 
@@ -102,6 +105,11 @@
     	</table>
 
     	<!-- ###################### TABLE CONTENT ###################### -->
+
+    	<p class='lead'> Os dados que foram removidos não possuíam latitude ou longitude, o que os tornava dispensáveis já que uma das principais visualizações desse projeto é o mapa, ou se tratavam de repetições de outros locais. Entre as repetições, os dados de cada atributo disponível foram combinados para se obter um único registo com a maior quantidade de informações possível. O processo completo de limpeza e combinação de arquivos, incluindo os arquivos originais, intermediários e resultantes do processo, podem ser encontrados no <a href='https://github.com/IgorLimaKI/TrabalhoFinalVisDados'>repositório do nosso projeto</a> na pasta <b>PleiadesDatasetCleaning</b>.</p>
+
+    	<h1>Dificuldades e Aprendizado</h1>
+    	<p class="lead">Como foi inicialmente comentado, é desafiador trabalhar com visualizações variadas de uma quantidade volumosa de dados, principalmente no que se refere ao seu preparamento e sua organização, tanto para fornecer as informações com a maior qualidade possível quanto para evitar poluição e desconforto visual para o público. Entretanto, é extremamente prazeroso ir descobrindo aos poucos o mundo escondido nesses arquivos e recompensador apresentar este mundo graficamente para outras pessoas.</p>
     </div>
   </section>
 
