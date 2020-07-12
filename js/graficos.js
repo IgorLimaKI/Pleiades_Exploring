@@ -176,7 +176,7 @@ function readyBarScatterBubble([data]) {
                   .yAxisLabel("Ano Máximo Estimado")
                   .on("filtered", function(chart,filter){updateMarkers()});
 				  
-  timeScatterChart.margins().left = 65;
+  timeScatterChart.margins().left = 55;
   timeScatterChart.margins().bottom = 45;
   
   $('#selectScatter').click(function(event) {
