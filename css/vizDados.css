@@ -62,6 +62,10 @@ body {
   margin-right: 1px;
 }
 
+.barraVerticalDireita {
+  border-right: 1px double #379e90;
+}
+
 #mapid {
     width: 800px
     height: 800px
