@@ -83,3 +83,22 @@ body {
 #periodsChart {
   overflow-x: auto;
 }
+
+#coluna-1 {
+    float:left;
+    width: 500px;
+}
+
+#coluna-2 {
+    float:right;
+    width: 75%;
+	padding-right: 900px;
+}
+
+#row {
+    width:33.33333%;
+}
+
+#hidden {
+	display:none;	
+}
