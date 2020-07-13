@@ -89,10 +89,10 @@ body {
     width: 500px;
 }
 
-#coluna-2 {
+.coluna-2 {
     float:right;
     width: 75%;
-	padding-right: 900px;
+	padding-left: 200px;
 }
 
 #row {
